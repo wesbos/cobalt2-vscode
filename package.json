@@ -2,7 +2,7 @@
   "name": "vscode-theme-cobalt2",
   "version": "1.0.0",
   "displayName": "Cobalt2 Theme",
-  "description": "A Cobalt2 theme for VS Code.",
+  "description": "A Cobalt2 theme for VS Code entirely based on Cobalt2 from Wes Bos.",
   "publisher": "robertoachar",
   "icon": "images/logo.png",
   "galleryBanner": {
