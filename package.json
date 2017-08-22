@@ -1,0 +1,43 @@
+{
+  "name": "vscode-theme-cobalt2",
+  "version": "1.0.0",
+  "displayName": "Cobalt2 Theme",
+  "description": "A Cobalt2 theme for VS Code.",
+  "publisher": "robertoachar",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#122738",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/robertoachar/vscode-theme-cobalt2/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/vscode-theme-cobalt2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/vscode-theme-cobalt2/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cobalt2",
+        "uiTheme": "vs-dark",
+        "path": "./theme/cobalt2.json"
+      }
+    ]
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
