@@ -1,6 +1,6 @@
 # Cobalt2 Theme for VS Code
 
-![](./images/ss.png)
+![](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
 
 
 # Installation
@@ -13,3 +13,15 @@
 6. Click **Reload** to reload the Code
 7. File > Preferences > Color Theme > **Cobalt2**
 
+## Put Cobalt2 in other places!
+
+* [Sublime Text](https://github.com/wesbos/cobalt2)
+* [Atom](https://github.com/wesbos/Cobalt2-atom)
+* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
+* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
+* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
+* [Slack](https://github.com/wesbos/Cobalt2-Slack)
+
+## Thanks
+
+Thanks to Roberto Achar for doing much of the initial porting to VS Code.
