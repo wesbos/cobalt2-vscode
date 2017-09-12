@@ -71,16 +71,16 @@
     "editorGutter.modifiedBackground": "#26506D",
     // editorGroup
     "editorGroup.background": "#f00",
-    "editorGroup.border": "#193549",
+    "editorGroup.border": "#122738",
     "editorGroup.dropBackground": "#12273899",
     // editorGroupHeader
     "editorGroupHeader.noTabsBackground": "#193549",
     "editorGroupHeader.tabsBackground": "#193549",
     "editorGroupHeader.tabsBorder": "#15232d",
     // editorHoverWidget
-    "editorHoverWidget.background": "#193549",
+    "editorHoverWidget.background": "#15232d",
     "editorHoverWidget.border": "#0d3a58",
-    "editorIndentGuide.background": "#0d3a58",
+    "editorIndentGuide.background": "#3B5364",
     "editorLineNumber.foreground": "#aaa",
     "editorLink.activeForeground": "#aaa",
     // editorMarkerNavigation
@@ -157,8 +157,8 @@
     "notification.warningForeground": "#000",
     // panel
     "panel.background": "#122738",
-    "panel.border": "#0d3a58",
-    "panelTitle.activeBorder": "#0d3a58",
+    "panel.border": "#ffc600",
+    "panelTitle.activeBorder": "#ffc600",
     "panelTitle.activeForeground": "#ffc600",
     "panelTitle.inactiveForeground": "#aaa",
     // "peekView
@@ -515,7 +515,8 @@
         "markup.heading.setext.2.markdown"
       ],
       "settings": {
-        "foreground": "#ffc600"
+        "foreground": "#ffc600",
+        "fontStyle": "bold"
       }
     },
     {
