@@ -1,15 +1,17 @@
 {
-  "name": "vscode-theme-cobalt2",
+  "name": "wesbos-vscode-theme-cobalt2",
   "version": "1.0.0",
-  "displayName": "Cobalt2 Theme",
-  "description": "A Cobalt2 theme for VS Code entirely based on Cobalt2 from Wes Bos.",
+  "displayName": "Cobalt2 Theme - DEV",
+  "description":
+    "A Cobalt2 theme for VS Code entirely based on Cobalt2 from Wes Bos.",
   "publisher": "robertoachar",
   "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#122738",
     "theme": "dark"
   },
-  "homepage": "https://github.com/robertoachar/vscode-theme-cobalt2/blob/master/README.md",
+  "homepage":
+    "https://github.com/robertoachar/vscode-theme-cobalt2/blob/master/README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/robertoachar/vscode-theme-cobalt2.git"
@@ -17,23 +19,18 @@
   "bugs": {
     "url": "https://github.com/robertoachar/vscode-theme-cobalt2/issues"
   },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "VSCode",
-    "Themes"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["VSCode", "Themes"],
   "engines": {
     "vscode": "^1.15.0"
   },
   "scripts": {
-    "build": "vsce package"
+    "start": "nodemon --exec vsce package"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Cobalt2",
+        "label": "Cobalt2 Dev",
         "uiTheme": "vs-dark",
         "path": "./theme/cobalt2.json"
       }

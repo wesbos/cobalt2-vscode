@@ -36,21 +36,28 @@
     "dropdown.border": "#15232d",
     "dropdown.foreground": "#fff",
     // editor
-    "editor.background": "#122738",
+    // This is the main background color
+    "editor.background": "#193549",
+    // this is the main text colour
     "editor.foreground": "#fff",
-    "editor.findMatchBackground": "#19354945",
-    "editor.findMatchHighlightBackground": "#ADD6FF26",
+    // Currently found item
+    "editor.findMatchBackground": "#ffc600",
+    // Other Found Items
+    "editor.findMatchHighlightBackground": "#B8FF00",
     "editor.findRangeHighlightBackground": "#f00",
-    "editor.hoverHighlightBackground": "#0088ff99",
+    "editor.hoverHighlightBackground": "#0D3A58",
     "editor.inactiveSelectionBackground": "#193549",
-    "editor.lineHighlightBackground": "#193549",
-    "editor.lineHighlightBorder": "#0d3a58",
-    "editor.rangeHighlightBackground": "#0d3a58",
-    "editor.selectionBackground": "#0d3a58",
+    // current line styles
+    "editor.lineHighlightBackground": "#1F4662",
+    "editor.lineHighlightBorder": "#234E6D",
+
+    "editor.rangeHighlightBackground": "#1F4662",
+    // selected Text colours
+    "editor.selectionBackground": "#0050A4",
     "editor.selectionForeground": "#ffffff00",
-    "editor.selectionHighlightBackground": "#0088ff99",
-    "editor.wordHighlightBackground": "#193549",
-    "editor.wordHighlightStrongBackground": "#193549",
+    "editor.selectionHighlightBackground": "#0762AF",
+    "editor.wordHighlightBackground": "#0D4377",
+    "editor.wordHighlightStrongBackground": "#0050A4",
     "editorBracketMatch.background": "#0d3a58",
     "editorBracketMatch.border": "#ffc600",
     "editorCodeLens.foreground": "#aaa",
@@ -58,10 +65,10 @@
     "editorError.border": "#0d3a58",
     "editorError.foreground": "#f00",
     // gutter
-    "editorGutter.addedBackground": "#3ad900",
-    "editorGutter.background": "#15232d",
+    "editorGutter.background": "#193549",
+    "editorGutter.addedBackground": "#3C9F4A",
     "editorGutter.deletedBackground": "#f00",
-    "editorGutter.modifiedBackground": "#0088ff",
+    "editorGutter.modifiedBackground": "#26506D",
     // editorGroup
     "editorGroup.background": "#f00",
     "editorGroup.border": "#193549",
@@ -202,7 +209,8 @@
     // tab
     "tab.activeBackground": "#122738",
     "tab.activeForeground": "#fff",
-    "tab.border": "#ffc600",
+    "tab.border": "#15232D",
+    "tab.activeBorder": "#ffc600",
     "tab.inactiveBackground": "#193549",
     "tab.inactiveForeground": "#aaa",
     "tab.unfocusedActiveForeground": "#aaa",
@@ -248,10 +256,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#0088ff"
@@ -336,20 +341,14 @@
     },
     {
       "name": "String",
-      "scope": [
-        "string",
-        "punctuation.definition.string"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "#a5ff90"
       }
     },
     {
       "name": "String Template",
-      "scope": [
-        "string.template",
-        "punctuation.definition.string.template"
-      ],
+      "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -398,10 +397,7 @@
     },
     {
       "name": "[CSS] - Constant",
-      "scope": [
-        "source.css constant",
-        "source.css support.constant"
-      ],
+      "scope": ["source.css constant", "source.css support.constant"],
       "settings": {
         "foreground": "#ffee80"
       }
@@ -604,20 +600,14 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
