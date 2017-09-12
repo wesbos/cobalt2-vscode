@@ -1,10 +1,14 @@
 {
-  "name": "vscode-theme-cobalt2",
+  "name": "theme-cobalt2",
   "version": "2.0.0",
   "displayName": "Cobalt2 Theme Official",
-  "description": "The official Cobalt2 theme by Wes Bos.",
-  "publisher": "Wes Bos 🔥",
+  "description": "🔥 Official theme by Wes Bos.",
+  "publisher": "wesbos",
   "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesbos/cobalt2-vscode"
+  },
   "galleryBanner": {
     "color": "#193549",
     "theme": "dark"
