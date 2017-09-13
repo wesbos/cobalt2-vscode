@@ -91,7 +91,7 @@
     "editorOverviewRuler.commonContentForeground": "#ffc60055",
     "editorOverviewRuler.currentContentForeground": "#ee3a4355",
     "editorOverviewRuler.incomingContentForeground": "#3ad90055",
-    "editorRuler.foreground": "#ffc60033",
+    "editorRuler.foreground": "#1F4662",
     // editorSuggestWidget
     "editorSuggestWidget.background": "#15232d",
     "editorSuggestWidget.border": "#15232d",
