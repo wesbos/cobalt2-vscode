@@ -50,7 +50,6 @@
     // current line styles
     "editor.lineHighlightBackground": "#1F4662",
     "editor.lineHighlightBorder": "#234E6D",
-
     "editor.rangeHighlightBackground": "#1F4662",
     // selected Text colours
     "editor.selectionBackground": "#0050A4",
@@ -256,7 +255,10 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#0088ff"
@@ -341,14 +343,20 @@
     },
     {
       "name": "String",
-      "scope": ["string", "punctuation.definition.string"],
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
     },
     {
       "name": "String Template",
-      "scope": ["string.template", "punctuation.definition.string.template"],
+      "scope": [
+        "string.template",
+        "punctuation.definition.string.template"
+      ],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -397,7 +405,10 @@
     },
     {
       "name": "[CSS] - Constant",
-      "scope": ["source.css constant", "source.css support.constant"],
+      "scope": [
+        "source.css constant",
+        "source.css support.constant"
+      ],
       "settings": {
         "foreground": "#ffee80"
       }
@@ -601,14 +612,20 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "scope": [
+        "fenced_code.block.language",
+        "markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "scope": [
+        "fenced_code.block.language",
+        "markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
@@ -667,6 +684,78 @@
       "scope": "source.ts storage",
       "settings": {
         "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "Italicsify for Operator Mono",
+      "scope": [
+        "source.json meta.structure.dictionary support.type.property-name.json",
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css",
+        "support.constant.vendored.property-value.css",
+        "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.import.js variable.other",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "support.type.primitive",
+        "entity.name.tag.yaml",
+        "meta.tag.sgml.doctype.html",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "entity.other.attribute-name",
+        "entity.name.tag.custom",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "punctuation.section.embedded",
+        "constant.other.color.rgb-value.hex.css",
+        "constant.other.rgb-value.css",
+        "variable.assignment.coffee",
+        "constant.language.boolean",
+        "constant.language.null",
+        "support.function.basic_functions",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.type.annotation",
+        "variable.object.property.ts",
+        "variable.object.property.js",
+        "variable.object.property.jsx",
+        "variable.object.property.tsx",
+        "assignment.coffee",
+        "entity.name.type.ts",
+        "support.function.js",
+        "support.constant.math",
+        "meta.object-literal.key",
+        "meta.var.expr storage.type",
+        "variable.scss",
+        "variable.sass",
+        "variable.other.less",
+        "variable.parameter.url.scss",
+        "variable.parameter.url.sass",
+        "markdown",
+        "parameter",
+        "string",
+        "italic",
+        "quote",
+        "keyword",
+        "storage",
+        "language",
+        "constant.language",
+        "variable.language",
+        "type .function",
+        "type.function",
+        "storage.type.class",
+        "type.var",
+        "meta.parameter",
+        "variable.parameter",
+        "meta.parameters",
+        "keyword.control",
+        "modifier",
+        "this",
+        "comment"
+      ],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]
