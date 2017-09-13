@@ -15,6 +15,12 @@
 ## Contributing
 TODO
 
+## I wish _____ was _____
+
+These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colours in your own settings.json file.
+
+https://code.visualstudio.com/docs/getstarted/theme-color-reference
+
 ## Put Cobalt2 in other places!
 
 * [Sublime Text](https://github.com/wesbos/cobalt2)

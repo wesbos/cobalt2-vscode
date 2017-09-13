@@ -283,7 +283,7 @@
       }
     },
     {
-      "name": "Keywork",
+      "name": "Keyword",
       "scope": "keyword",
       "settings": {
         "foreground": "#ff9d00"
@@ -423,6 +423,13 @@
       "scope": "text.html.basic entity.name",
       "settings": {
         "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[HTML] - ID value",
+      "scope": "meta.toc-list.id.html",
+      "settings": {
+        "foreground": "#A5FF90"
       }
     },
     {
