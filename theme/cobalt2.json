@@ -710,6 +710,13 @@
       }
     },
     {
+      "name": "[PHP] - Variables",
+      "scope": "variable.other.php",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
       "name": "Italicsify for Operator Mono",
       "scope": ["modifier", "this", "comment"],
       "settings": {
