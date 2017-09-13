@@ -13,8 +13,13 @@
     "color": "#193549",
     "theme": "dark"
   },
-  "categories": ["Themes"],
-  "keywords": ["VSCode", "Themes"],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
   "engines": {
     "vscode": "^1.15.0"
   },
@@ -29,5 +34,9 @@
         "path": "./theme/cobalt2.json"
       }
     ]
+  },
+  "dependencies": {
+    "nodemon": "^1.12.0",
+    "vsce": "^1.30.0"
   }
 }
