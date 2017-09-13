@@ -392,6 +392,20 @@
       }
     },
     {
+      "name": "[CSS] - ID Selector",
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": "#FFB454"
+      }
+    },
+    {
+      "name": "[CSS] - Element Selector",
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "#9EFFFF"
+      }
+    },
+    {
       "name": "[CSS] - Support",
       "scope": "source.css support",
       "settings": {
