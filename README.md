@@ -12,6 +12,34 @@
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
 7. File > Preferences > Color Theme > **Cobalt2**
+
+## Recommended Settings
+
+## CSS Hacks
+Some things in VS code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this in your settings:
+
+```js
+"vscode_custom_css.imports": [
+    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
+  ],
+```
+
+```css
+/* Fat Cursor */
+.monaco-editor .cursors-layer.cursor-underline-thin-style > .cursor {
+  border-bottom-width: 0;
+  border-left-width: 3px;
+  border-left-style: solid;
+  background: transparent !important;
+  box-sizing: border-box;
+}
+
+.vs-dark .monaco-workbench > .part.editor > .content > .one-editor-silo > .container > .title .tabs-container > .tab.dirty .close-editor-action {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' height='16' width='16'%3E%3Ccircle fill='%23ffc600' cx='8' cy='8' r='4'/%3E%3C/svg%3E")
+    50% no-repeat;
+}
+```
+
 ## Contributing
 TODO
 
