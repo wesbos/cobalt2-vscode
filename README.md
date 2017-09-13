@@ -40,6 +40,14 @@ Some things in VS code can't be controlled by settings, but you can install [thi
   background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' height='16' width='16'%3E%3Ccircle fill='%23ffc600' cx='8' cy='8' r='4'/%3E%3C/svg%3E")
     50% no-repeat;
 }
+
+/* Find Border */
+.monaco-editor .findMatch,
+.monaco-editor .selectionHighlight {
+    border: 1px solid #ffc600;
+    border-radius: 2px;
+    background: transparent;
+}
 ```
 
 ## Contributing
