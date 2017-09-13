@@ -92,7 +92,7 @@
     "editorOverviewRuler.commonContentForeground": "#ffc60055",
     "editorOverviewRuler.currentContentForeground": "#ee3a4355",
     "editorOverviewRuler.incomingContentForeground": "#3ad90055",
-    "editorRuler.foreground": "#ffc600",
+    "editorRuler.foreground": "#ffc60033",
     // editorSuggestWidget
     "editorSuggestWidget.background": "#15232d",
     "editorSuggestWidget.border": "#15232d",
@@ -102,7 +102,7 @@
     // editorWarning
     "editorWarning.border": "#ffffff00",
     "editorWarning.foreground": "#ffc600",
-    "editorWhitespace.foreground": "#ffffff00",
+    "editorWhitespace.foreground": "#ffc60033",
     "editorWidget.background": "#15232d",
     "editorWidget.border": "#0d3a58",
     "errorForeground": "#f00",
@@ -666,6 +666,13 @@
       "name": "[TYPESCRIPT] - Storage",
       "scope": "source.ts storage",
       "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[PHP] - Entity",
+      "scope": "source.php entity",
+      "settings":{
         "foreground": "#9effff"
       }
     }
