@@ -16,7 +16,7 @@
 
 ## Recommended Settings
 
-```json
+```js
 {
   "workbench.colorTheme": "Cobalt2",
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -40,7 +40,7 @@
 ## Important: CSS Hacks For Extra Sweet Editor
 Some things in VS code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this in your settings:
 
-```json
+```js
 "vscode_custom_css.imports": [
   "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/cobalt2-custom-hacks.css"
 ],
@@ -48,7 +48,7 @@ Some things in VS code can't be controlled by settings, but you can install [thi
 
 You can also add local CSS like so:
 
-```json
+```js
 "vscode_custom_css.imports": [
   "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/cobalt2-custom-hacks.css",
   "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
