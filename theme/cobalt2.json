@@ -517,6 +517,13 @@
       }
     },
     {
+      "name": "[PYTHON] - Self Argument",
+      "scope": "variable.parameter.function.language.special.self.python",
+      "settings": {
+        "foreground": "#fb94ff"
+      }
+    },
+    {
       "name": "[JSON] - Support",
       "scope": "source.json support",
       "settings": {
