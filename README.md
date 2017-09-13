@@ -12,6 +12,8 @@
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
 7. File > Preferences > Color Theme > **Cobalt2**
+## Contributing
+TODO
 
 ## Put Cobalt2 in other places!
 
@@ -21,6 +23,7 @@
 * [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
 * [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
 * [Slack](https://github.com/wesbos/Cobalt2-Slack)
+
 
 ## Thanks
 
