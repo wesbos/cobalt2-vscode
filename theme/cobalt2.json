@@ -105,7 +105,7 @@
     // editorWarning
     "editorWarning.border": "#ffffff00",
     "editorWarning.foreground": "#ffc600",
-    "editorWhitespace.foreground": "#ffffff33",
+    "editorWhitespace.foreground": "#ffffff1a",
     "editorWidget.background": "#15232d",
     "editorWidget.border": "#0d3a58",
     "errorForeground": "#f00",
