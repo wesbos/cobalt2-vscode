@@ -452,6 +452,15 @@
       }
     },
     {
+      "name":
+        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope":
+        "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "settings": {
+        "foreground": "#92fc79"
+      }
+    },
+    {
       "name": "[INI] - Entity",
       "scope": "source.ini entity",
       "settings": {
