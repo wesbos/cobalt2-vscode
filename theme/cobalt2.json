@@ -288,7 +288,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword",
+      "scope": "keyword, storage.type.class.js",
       "settings": {
         "foreground": "#ff9d00"
       }
@@ -400,7 +400,7 @@
     },
     {
       "name": "[CSS] - Element Selector",
-      "scope": "entity.name.tag.css",
+      "scope": "entity.name.tag",
       "settings": {
         "foreground": "#9EFFFF"
       }
@@ -511,9 +511,17 @@
     },
     {
       "name": "[JAVASCRIPT] - Variable Language",
-      "scope": "variable.language",
+      "scope": "variable.language, entity.name.type.class.js",
       "settings": {
         "foreground": "#fb94ff"
+      }
+    },
+    {
+      "name": "[JAVASCRIPT] - Inherited Component",
+      "scope": "entity.other.inherited-class.js",
+      "settings": {
+        "background": "#0D3A58",
+        "foreground": "#ccc"
       }
     },
     {
@@ -725,7 +733,13 @@
     },
     {
       "name": "Italicsify for Operator Mono",
-      "scope": ["modifier", "this", "comment"],
+      "scope": [
+        "modifier",
+        "this",
+        "comment",
+        "storage.modifier.js",
+        "entity.other.attribute-name.js"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
