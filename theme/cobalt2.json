@@ -40,14 +40,16 @@
     "editor.background": "#193549",
     // this is the main text colour
     "editor.foreground": "#fff",
-
+    // Okay this part is confusing as heck!
     // Currently found item
     "editor.findMatchBackground": "#CAD40F",
-    // Other Found Items
-    "editor.findMatchHighlightBackground": "#304A41",
-    "editor.findRangeHighlightBackground": "#304A41",
-
-    "editor.hoverHighlightBackground": "#0D3A58",
+    // Other Found Items int the document
+    "editor.findMatchHighlightBackground": "#243E51",
+    // WTF is this one for? I don't know
+    "editor.findRangeHighlightBackground": "#243E51",
+    // When you hover over something and a popup shows, this highlights that thing
+    "editor.hoverHighlightBackground": "#ffc60033",
+    // when you have something selected, but have lost focus on the editor
     "editor.inactiveSelectionBackground": "#193549",
     // current line styles
     "editor.lineHighlightBackground": "#1F4662",
@@ -56,7 +58,7 @@
     // selected Text colours
     "editor.selectionBackground": "#0050A4",
     "editor.selectionForeground": "#ffffff00",
-    "editor.selectionHighlightBackground": "#0762AF",
+    "editor.selectionHighlightBackground": "#243E51",
     "editor.wordHighlightBackground": "#0D4377",
     "editor.wordHighlightStrongBackground": "#0050A4",
     "editorBracketMatch.background": "#0d3a58",
