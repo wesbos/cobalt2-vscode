@@ -185,9 +185,9 @@
     "progressBar.background": "#ffc600",
     // scrollbar
     "scrollbar.shadow": "#00000000",
-    "scrollbarSlider.activeBackground": "#0d3a58aa",
-    "scrollbarSlider.background": "#193549aa",
-    "scrollbarSlider.hoverBackground": "#0d3a58aa",
+    "scrollbarSlider.activeBackground": "#1F4662",
+    "scrollbarSlider.background": "#1F4662",
+    "scrollbarSlider.hoverBackground": "#406179",
     // selection
     "selection.background": "#0d3a58",
     // sidebar
