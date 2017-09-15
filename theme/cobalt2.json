@@ -193,7 +193,7 @@
     "scrollbarSlider.background": "#1F466280",
     "scrollbarSlider.hoverBackground": "#406179cc",
     // selection
-    "selection.background": "#0d3a58",
+    "selection.background": "#027dff",
     // sidebar
     "sideBar.background": "#15232d",
     "sideBar.border": "#0d3a58",
