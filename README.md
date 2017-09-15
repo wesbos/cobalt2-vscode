@@ -30,30 +30,22 @@
   "editor.cursorStyle": "underline-thin",
   "editor.cursorBlinking": "solid",
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  // you'll need to change this to an absolute path on your computer
   "vscode_custom_css.imports": [
-    "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/cobalt2-custom-hacks.css"
+    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
   ],
   "editor.renderWhitespace": "all",
 }
 ```
 
 ## Important: CSS Hacks For Extra Sweet Editor
-Some things in VS code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this in your settings:
+Some things in VS code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
 
-```js
-"vscode_custom_css.imports": [
-  "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/cobalt2-custom-hacks.css"
-],
-```
+Once done, open your command palette and select enable **custom CSS and JS**
 
-You can also add local CSS like so:
+![](http://wes.io/mXz3/content)
 
-```js
-"vscode_custom_css.imports": [
-  "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/cobalt2-custom-hacks.css",
-  "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-  ],
-```
+Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
 ## Contributing
 This is a bit weird, but to get some sort of live feedback for when editing a theme. Please let me know if you have a saner way of doing it
