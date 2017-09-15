@@ -70,14 +70,14 @@
     "editorCodeLens.foreground": "#aaa",
     "editorCursor.foreground": "#ffc600",
     "editorError.border": "#0d3a58",
-    "editorError.foreground": "#f00",
+    "editorError.foreground": "#A22929",
     // gutter
     "editorGutter.background": "#12273866",
     "editorGutter.addedBackground": "#3C9F4A",
-    "editorGutter.deletedBackground": "#f00",
+    "editorGutter.deletedBackground": "#A22929",
     "editorGutter.modifiedBackground": "#26506D",
     // editorGroup
-    "editorGroup.background": "#f00",
+    "editorGroup.background": "#A22929",
     "editorGroup.border": "#122738",
     "editorGroup.dropBackground": "#12273899",
     // editorGroupHeader
@@ -91,8 +91,8 @@
     "editorLineNumber.foreground": "#aaa",
     "editorLink.activeForeground": "#aaa",
     // editorMarkerNavigation
-    "editorMarkerNavigation.background": "#193549",
-    "editorMarkerNavigationError.background": "#f00",
+    "editorMarkerNavigation.background": "#3B536433",
+    "editorMarkerNavigationError.background": "#A22929",
     "editorMarkerNavigationWarning.background": "#ffc600",
     // ruler
     "editorOverviewRuler.border": "#0d3a58",
@@ -112,7 +112,7 @@
     "editorWhitespace.foreground": "#ffffff1a",
     "editorWidget.background": "#15232d",
     "editorWidget.border": "#0d3a58",
-    "errorForeground": "#f00",
+    "errorForeground": "#A22929",
     // extensionButton
     "extensionButton.prominentBackground": "#0088ff",
     "extensionButton.prominentForeground": "#fff",
@@ -155,7 +155,7 @@
     "notification.buttonBackground": "#0088ff",
     "notification.buttonForeground": "#fff",
     "notification.buttonHoverBackground": "#ff9d00",
-    "notification.errorBackground": "#f00",
+    "notification.errorBackground": "#A22929",
     "notification.errorForeground": "#fff",
     "notification.foreground": "#000",
     "notification.infoBackground": "#0088ff",
