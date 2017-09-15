@@ -7,7 +7,7 @@
     "activityBar.background": "#122738",
     "activityBar.border": "#0d3a58",
     "activityBar.dropBackground": "#0d3a58",
-    "activityBar.foreground": "#aaa",
+    "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#ffc600",
     "activityBarBadge.foreground": "#000",
     // badge
@@ -18,8 +18,8 @@
     "button.foreground": "#fff",
     "button.hoverBackground": "#ff9d00",
     // contrast
-    "contrastActiveBorder": "#ffffff00",
-    "contrastBorder": "#ffffff00",
+    "contrastActiveBorder": null,
+    "contrastBorder": null,
     // debug
     "debugExceptionWidget.background": "#193549",
     "debugExceptionWidget.border": "#aaa",
@@ -109,7 +109,7 @@
     "editorSuggestWidget.highlightForeground": "#ffc600",
     "editorSuggestWidget.selectedBackground": "#193549",
     // editorWarning
-    "editorWarning.border": "#ffffff00",
+    "editorWarning.border": null,
     "editorWarning.foreground": "#ffc600",
     "editorWhitespace.foreground": "#ffffff1a",
     "editorWidget.background": "#15232d",
@@ -145,13 +145,13 @@
     "list.inactiveSelectionBackground": "#0d3a58",
     "list.inactiveSelectionForeground": "#aaa",
     // merge
-    "merge.border": "#ffffff00",
-    "merge.commonContentBackground": "#ffffff00",
-    "merge.commonHeaderBackground": "#ffffff00",
-    "merge.currentContentBackground": "#ffffff00",
-    "merge.currentHeaderBackground": "#ffffff00",
-    "merge.incomingContentBackground": "#ffffff00",
-    "merge.incomingHeaderBackground": "#ffffff00",
+    "merge.border": null,
+    "merge.commonContentBackground": null,
+    "merge.commonHeaderBackground": null,
+    "merge.currentContentBackground": null,
+    "merge.currentHeaderBackground": null,
+    "merge.incomingContentBackground": null,
+    "merge.incomingHeaderBackground": null,
     // notification
     "notification.background": "#ffc600",
     "notification.buttonBackground": "#0088ff",
