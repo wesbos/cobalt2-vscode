@@ -260,7 +260,7 @@
     "walkThrough.embeddedEditorBackground": "#0d3a58",
     "welcomePage.buttonBackground": "#193549",
     "welcomePage.buttonHoverBackground": "#0d3a58",
-    "widget.shadow": "#0d3a58"
+    "widget.shadow": "#00000026"
   },
   "tokenColors": [
     {
