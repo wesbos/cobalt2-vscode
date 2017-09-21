@@ -7,7 +7,7 @@
     "activityBar.background": "#122738",
     "activityBar.border": "#0d3a58",
     "activityBar.dropBackground": "#0d3a58",
-    "activityBar.foreground": "#aaa",
+    "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#ffc600",
     "activityBarBadge.foreground": "#000",
     // badge
@@ -18,7 +18,7 @@
     "button.foreground": "#fff",
     "button.hoverBackground": "#ff9d00",
     // contrast
-    "contrastActiveBorder": "#ffffff00",
+    "contrastActiveBorder": null,
     "contrastBorder": "#ffffff00",
     // debug
     "debugExceptionWidget.background": "#193549",
