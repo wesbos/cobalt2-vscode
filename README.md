@@ -8,11 +8,11 @@
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-4. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
-5. Click **Install** to install it.
-6. Click **Reload** to reload the your editor
-7. File > Preferences > Color Theme > **Cobalt2**
-8. Optional: Use the recommended settings below for best experience
+2. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
+3. Click **Install** to install it.
+4. Click **Reload** to reload the your editor
+5. File > Preferences > Color Theme > **Cobalt2**
+6. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
 
