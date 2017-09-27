@@ -7,7 +7,7 @@
     "activityBar.background": "#122738",
     "activityBar.border": "#0d3a58",
     "activityBar.dropBackground": "#0d3a58",
-    "activityBar.foreground": "#aaa",
+    "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#ffc600",
     "activityBarBadge.foreground": "#000",
     // badge
@@ -18,7 +18,7 @@
     "button.foreground": "#fff",
     "button.hoverBackground": "#ff9d00",
     // contrast
-    "contrastActiveBorder": "#ffffff00",
+    "contrastActiveBorder": null,
     "contrastBorder": "#ffffff00",
     // debug
     "debugExceptionWidget.background": "#193549",
@@ -233,14 +233,14 @@
     "terminal.ansiMagenta": "#fb94ff",
     "terminal.ansiCyan": "#80fcff",
     "terminal.ansiWhite": "#ffffff",
-    "terminal.ansiBrightBlack": "#000000",
+    "terminal.ansiBrightBlack": "#0050A4",
     "terminal.ansiBrightRed": "#ff628c",
     "terminal.ansiBrightGreen": "#3ad900",
     "terminal.ansiBrightYellow": "#ffc600",
     "terminal.ansiBrightBlue": "#0088ff",
     "terminal.ansiBrightMagenta": "#fb94ff",
     "terminal.ansiBrightCyan": "#80fcff",
-    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightWhite": "#193549",
     "terminal.background": "#122738",
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#ffc600",
@@ -401,7 +401,10 @@
     },
     {
       "name": "[CSS] - Entity",
-      "scope": "source.css entity",
+      "scope": [
+        "source.css entity",
+        "source.stylus entity"
+      ],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -422,7 +425,10 @@
     },
     {
       "name": "[CSS] - Support",
-      "scope": "source.css support",
+      "scope": [
+        "source.css support",
+        "source.stylus support"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
@@ -431,7 +437,9 @@
       "name": "[CSS] - Constant",
       "scope": [
         "source.css constant",
-        "source.css support.constant"
+        "source.css support.constant",
+        "source.stylus constant",
+        "source.stylus support.constant"
       ],
       "settings": {
         "foreground": "#ffee80"
@@ -441,7 +449,9 @@
       "name": "[CSS] - String",
       "scope": [
         "source.css string",
-        "source.css punctuation.definition.string"
+        "source.css punctuation.definition.string",
+        "source.stylus string",
+        "source.stylus punctuation.definition.string"
       ],
       "settings": {
         "foreground": "#ffee80"
@@ -449,7 +459,10 @@
     },
     {
       "name": "[CSS] - Variable",
-      "scope": "source.css variable",
+      "scope": [
+        "source.css variable",
+        "source.stylus variable"
+      ],
       "settings": {
         "foreground": "#9effff"
       }

@@ -2,17 +2,17 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/wesbos.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 
-![](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
+![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
 
 
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-4. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked one so make sure you have the right one!
-5. Click **Install** to install it.
-6. Click **Reload** to reload the your editor
-7. File > Preferences > Color Theme > **Cobalt2**
-1. Optional: Use the recommended settings below for best experience
+2. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
+3. Click **Install** to install it.
+4. Click **Reload** to reload the your editor
+5. File > Preferences > Color Theme > **Cobalt2**
+6. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
 
@@ -43,7 +43,7 @@ Some things in VS code can't be controlled by settings, but you can install [thi
 
 Once done, open your command palette and select enable **custom CSS and JS**
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/0B37352D3s2A2e33353c/Screen%20Shot%202017-09-15%20at%2011.02.49%20AM.png?X-CloudApp-Visitor-Id=26998&v=7ff79bcc)
+![Custom CSS/JS Hack](https://d3vv6lp55qjaqc.cloudfront.net/items/0B37352D3s2A2e33353c/Screen%20Shot%202017-09-15%20at%2011.02.49%20AM.png?X-CloudApp-Visitor-Id=26998&v=7ff79bcc)
 
 Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
