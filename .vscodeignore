@@ -1,0 +1,6 @@
+.vscode/**
+demo/**
+images/logo.sketch
+.gitignore
+.gitattributes
+.editorconfig
