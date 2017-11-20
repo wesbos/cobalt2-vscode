@@ -245,6 +245,12 @@
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#ffc600",
     "terminalCursor.foreground": "#ffc600",
+    // Git status colors in File Explorer
+    "gitDecoration.modifiedResourceForeground": "#ffc600",
+    "gitDecoration.deletedResourceForeground": "#ff628c",
+    "gitDecoration.untrackedResourceForeground": "#3ad900",
+    "gitDecoration.ignoredResourceForeground": "#ff628c",
+    "gitDecoration.conflictingResourceForeground": "#FF7200",
     // textBlockQuote
     "textBlockQuote.background": "#193549",
     "textBlockQuote.border": "#0088ff",
