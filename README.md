@@ -11,7 +11,7 @@
 2. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
 3. Click **Install** to install it.
 4. Click **Reload** to reload the your editor
-5. File > Preferences > Color Theme > **Cobalt2**
+5. Code > Preferences > Color Theme > **Cobalt2**
 6. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
