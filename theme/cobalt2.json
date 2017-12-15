@@ -549,7 +549,6 @@
       "name": "[JAVASCRIPT] - Inherited Component",
       "scope": "entity.other.inherited-class.js",
       "settings": {
-        "background": "#0D3A58",
         "foreground": "#ccc"
       }
     },
