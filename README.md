@@ -41,7 +41,7 @@
 ## Important: CSS Hacks For Extra Sweet Editor
 Some things in VS code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
 
-Then Install [Fira Code Font] (https://github.com/tonsky/FiraCode) to have some cool ligatures.
+Then Install [Fira Code Font](https://github.com/tonsky/FiraCode) to have some cool ligatures.
 
 Once done, open your command palette and select enable **custom CSS and JS**
 
