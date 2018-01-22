@@ -2,6 +2,11 @@
   font-family: "Operator Mono", "Inconsolata", monospace;
 }
 
+/*Arrow functions change font*/
+.mtk16 {
+  font-family: 'Fira Code' !important;
+}
+
 /*
   Fat Cursor.
   This overwrites the "underline thin" style since that is one that can be styled with CSS
