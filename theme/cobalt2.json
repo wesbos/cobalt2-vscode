@@ -59,7 +59,7 @@
     // This is the standard Select colour
     "editor.selectionBackground": "#0050A4",
     // This is the colour of the other matching elements
-    "editor.selectionHighlightBackground": "#0050A433",
+    "editor.selectionHighlightBackground": "#0050A480",
     // if you tab away you can colour it differently, but ill leave this one out
     // "editor.inactiveSelectionBackground": "",
     // Word Highlights! This happens when you move your cursor inside a variable
