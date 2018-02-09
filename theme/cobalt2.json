@@ -146,12 +146,12 @@
     "list.inactiveSelectionForeground": "#aaa",
     // merge
     "merge.border": "#ffffff00",
-    "merge.commonContentBackground": "#ffffff00",
-    "merge.commonHeaderBackground": "#ffffff00",
-    "merge.currentContentBackground": "#ffffff00",
-    "merge.currentHeaderBackground": "#ffffff00",
-    "merge.incomingContentBackground": "#ffffff00",
-    "merge.incomingHeaderBackground": "#ffffff00",
+    "merge.commonContentBackground": "#c97d0c",
+    "merge.commonHeaderBackground": "#c97d0c",
+    "merge.currentContentBackground": "#2F7366",
+    "merge.currentHeaderBackground": "#2F7366",
+    "merge.incomingContentBackground": "#185294",
+    "merge.incomingHeaderBackground": "#185294",
     // notification
     "notification.background": "#ffc600",
     "notification.buttonBackground": "#0088ff",
@@ -271,10 +271,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#0088ff"
@@ -359,20 +356,14 @@
     },
     {
       "name": "String",
-      "scope": [
-        "string",
-        "punctuation.definition.string"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "#a5ff90"
       }
     },
     {
       "name": "String Template",
-      "scope": [
-        "string.template",
-        "punctuation.definition.string.template"
-      ],
+      "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -407,10 +398,7 @@
     },
     {
       "name": "[CSS] - Entity",
-      "scope": [
-        "source.css entity",
-        "source.stylus entity"
-      ],
+      "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -431,10 +419,7 @@
     },
     {
       "name": "[CSS] - Support",
-      "scope": [
-        "source.css support",
-        "source.stylus support"
-      ],
+      "scope": ["source.css support", "source.stylus support"],
       "settings": {
         "foreground": "#a5ff90"
       }
@@ -465,10 +450,7 @@
     },
     {
       "name": "[CSS] - Variable",
-      "scope": [
-        "source.css variable",
-        "source.stylus variable"
-      ],
+      "scope": ["source.css variable", "source.stylus variable"],
       "settings": {
         "foreground": "#9effff"
       }
@@ -503,8 +485,10 @@
       }
     },
     {
-      "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "name":
+        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope":
+        "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
         "foreground": "#92fc79"
       }
@@ -683,20 +667,14 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
