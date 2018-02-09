@@ -27,7 +27,7 @@
   "editor.fontWeight": "400",
   "prettier.eslintIntegration": true,
   "editor.cursorStyle": "line",
-  "editor.cursorWidth": 3,
+  "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
   // you'll need to change this to an absolute path on your computer
