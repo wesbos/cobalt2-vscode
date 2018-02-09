@@ -26,8 +26,8 @@
   "files.trimTrailingWhitespace": true,
   "editor.fontWeight": "400",
   "prettier.eslintIntegration": true,
-  // this isn't really underline-thin but we hack it to be a thicker cursor
-  "editor.cursorStyle": "underline-thin",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
   "editor.cursorBlinking": "solid",
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
   // you'll need to change this to an absolute path on your computer
