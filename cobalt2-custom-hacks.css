@@ -2,20 +2,6 @@
   font-family: "Operator Mono", "Inconsolata", monospace;
 }
 
-/*
-  Fat Cursor.
-  This overwrites the "underline thin" style since that is one that can be styled with CSS
-  So set your settings to:
-  "editor.cursorStyle": "underline-thin",
-*/
-.monaco-editor .cursors-layer.cursor-underline-thin-style > .cursor {
-  border-bottom-width: 0;
-  border-left-width: 3px;
-  border-left-style: solid;
-  background: transparent !important;
-  box-sizing: border-box;
-}
-
 /* This makes the dirty tab circle yellow */
 .vs-dark
   .monaco-workbench
