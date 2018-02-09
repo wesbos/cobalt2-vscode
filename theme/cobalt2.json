@@ -27,9 +27,9 @@
     // description
     "descriptionForeground": "#aaa",
     // diff
-    "diffEditor.insertedTextBackground": "#3ad90011",
+    "diffEditor.insertedTextBackground": "#3ad90033",
     "diffEditor.insertedTextBorder": "#3ad90055",
-    "diffEditor.removedTextBackground": "#ee3a4311",
+    "diffEditor.removedTextBackground": "#ee3a4333",
     "diffEditor.removedTextBorder": "#ee3a4355",
     // dropdown
     "dropdown.background": "#193549",
