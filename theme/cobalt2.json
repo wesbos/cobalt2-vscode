@@ -772,13 +772,35 @@
       }
     },
     {
+      "name": "[C#] - Annotations",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[C#] - Properties",
+      "scope": "entity.name.variable.property.cs",
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[C#] - Storage modifiers",
+      "scope": "storage.modifier.cs",
+      "settings": {
+        "foreground": "#80ffbb"
+      }
+    },
+    {
       "name": "Italicsify for Operator Mono",
       "scope": [
         "modifier",
         "this",
         "comment",
         "storage.modifier.js",
-        "entity.other.attribute-name.js"
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "fontStyle": "italic"
