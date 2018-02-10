@@ -775,7 +775,21 @@
       "name": "[C#] - Annotations",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "#fb94ff"
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[C#] - Properties",
+      "scope": "entity.name.variable.property.cs",
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[C#] - Storage modifiers",
+      "scope": "storage.modifier.cs",
+      "settings": {
+        "foreground": "#80ffbb"
       }
     },
     {
