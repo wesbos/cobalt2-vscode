@@ -39,3 +39,103 @@
 .monaco-workbench>.activitybar>.content .monaco-action-bar .badge .badge-content {
   top: 17px !important;
 }
+
+/* Explorer tree view */
+:root {
+  /** Width of the lines **/
+  --tree-width: 14px;
+  /** Opacity of the lines whilst not hovered **/
+  --tree-opacity: 0.1;
+  /** Opacity of the lines on hover **/
+  --tree-opacity-hover: 0.3;
+  /** Color of the lines **/
+  --tree-color: rgb(255, 255, 255);
+}
+
+.explorer-folders-view .monaco-tree-row {
+	overflow: visible !important;
+	position: relative;
+}
+
+.explorer-folders-view .monaco-tree-row .content {
+	z-index: 1
+}
+
+.explorer-folders-view .monaco-tree-row:before {
+	content: '';
+  background: var(--tree-color);
+  opacity: var(--tree-opacity);
+	position: absolute;
+  width: 1px;
+  top: -10px;
+  height: 100%;
+  transition: opacity 0.1s linear;
+}
+
+.explorer-folders-view .monaco-tree-row:after {
+	content: '';
+  background: var(--tree-color);
+  opacity: var(--tree-opacity);
+	position: absolute;
+	width: 18px;
+	height: 1px;
+  top: 50%;
+  transition: opacity 0.1s linear;
+}
+
+.explorer-folders-view:hover .monaco-tree-row:before,
+.explorer-folders-view:hover .monaco-tree-row:after {
+  opacity: var(--tree-opacity-hover)
+}
+
+.explorer-folders-view .monaco-tree-row:not(.has-children):after {
+	width: calc(var(--tree-width) * 2 + 3px);
+}
+
+.explorer-folders-view .monaco-tree-row:not([aria-level="1"]):not([aria-level="2"]):before {
+	box-shadow:  -20px 0 0 0 var(--tree-color),
+  -40px 0 0 0 var(--tree-color),
+  -60px 0 0 0 var(--tree-color),
+  -80px 0 0 0 var(--tree-color),
+  -100px 0 0 0 var(--tree-color),
+  -120px 0 0 0 var(--tree-color),
+  -140px 0 0 0 var(--tree-color),
+  -160px 0 0 0 var(--tree-color),
+  -180px 0 0 0 var(--tree-color),
+  -200px 0 0 0 var(--tree-color),
+  -220px 0 0 0 var(--tree-color),
+  -240px 0 0 0 var(--tree-color),
+  -260px 0 0 0 var(--tree-color);
+}
+
+.explorer-folders-view .monaco-tree-row[aria-level="1"]  { padding-left:   0px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="2"]  { padding-left:  20px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="3"]  { padding-left:  40px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="4"]  { padding-left:  60px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="5"]  { padding-left:  80px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="6"]  { padding-left: 100px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="7"]  { padding-left: 120px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="8"]  { padding-left: 140px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="9"]  { padding-left: 160px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="10"] { padding-left: 180px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="11"] { padding-left: 200px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="12"] { padding-left: 220px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="13"] { padding-left: 240px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="14"] { padding-left: 260px !important; }
+.explorer-folders-view .monaco-tree-row[aria-level="15"] { padding-left: 280px !important; }
+
+.explorer-folders-view .monaco-tree-row[aria-level="1"]:before, .monaco-tree-row[aria-level="1"]:after { display: none; }
+.explorer-folders-view .monaco-tree-row[aria-level="2"]:before, .monaco-tree-row[aria-level="2"]:after { left: calc(-30px + (2 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="3"]:before, .monaco-tree-row[aria-level="3"]:after { left: calc(-30px + (3 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="4"]:before, .monaco-tree-row[aria-level="4"]:after { left: calc(-30px + (4 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="5"]:before, .monaco-tree-row[aria-level="5"]:after { left: calc(-30px + (5 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="6"]:before, .monaco-tree-row[aria-level="6"]:after { left: calc(-30px + (6 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="7"]:before, .monaco-tree-row[aria-level="7"]:after { left: calc(-30px + (7 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="8"]:before, .monaco-tree-row[aria-level="8"]:after { left: calc(-30px + (8 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="9"]:before, .monaco-tree-row[aria-level="9"]:after { left: calc(-30px + (9 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="10"]:before, .monaco-tree-row[aria-level="10"]:after{ left: calc(-30px + (10 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="11"]:before, .monaco-tree-row[aria-level="11"]:after{ left: calc(-30px + (11 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="12"]:before, .monaco-tree-row[aria-level="12"]:after{ left: calc(-30px + (12 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="13"]:before, .monaco-tree-row[aria-level="13"]:after{ left: calc(-30px + (13 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="14"]:before, .monaco-tree-row[aria-level="14"]:after{ left: calc(-30px + (14 * 20px)); margin-left: 3px }
+.explorer-folders-view .monaco-tree-row[aria-level="15"]:before, .monaco-tree-row[aria-level="15"]:after{ left: calc(-30px + (15 * 20px)); margin-left: 3px }
