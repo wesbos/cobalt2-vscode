@@ -1,3 +1,17 @@
+/* Customization */
+:root {
+  /** Width of the lines **/
+  --tree-width: 14px;
+  /** Opacity of the lines whilst not hovered **/
+  --tree-opacity: 0.1;
+  /** Opacity of the lines on hover **/
+  --tree-opacity-hover: 0.3;
+  /** Color of the lines **/
+  --tree-color: rgb(255, 255, 255);
+}
+
+/* Styles */
+
 .monaco-shell {
   font-family: "Operator Mono", "Inconsolata", monospace;
 }
@@ -40,17 +54,8 @@
   top: 17px !important;
 }
 
+
 /* Explorer tree view */
-:root {
-  /** Width of the lines **/
-  --tree-width: 14px;
-  /** Opacity of the lines whilst not hovered **/
-  --tree-opacity: 0.1;
-  /** Opacity of the lines on hover **/
-  --tree-opacity-hover: 0.3;
-  /** Color of the lines **/
-  --tree-color: rgb(255, 255, 255);
-}
 
 .explorer-folders-view .monaco-tree-row {
 	overflow: visible !important;
