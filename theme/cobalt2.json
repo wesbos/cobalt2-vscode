@@ -216,9 +216,11 @@
     "statusBar.background": "#15232d",
     "statusBar.border": "#0d3a58",
     "statusBar.debuggingBackground": "#15232d",
-    "statusBar.debuggingForeground": "#0d3a58",
+    "statusBar.debuggingBorder": "#ffc600",
+    "statusBar.debuggingForeground": "#ffc600",
     "statusBar.foreground": "#aaa",
     "statusBar.noFolderBackground": "#15232d",
+    "statusBar.noFolderBorder": "#0d3a58",
     "statusBar.noFolderForeground": "#aaa",
     "statusBarItem.activeBackground": "#0088ff",
     "statusBarItem.hoverBackground": "#0d3a58",
@@ -277,8 +279,7 @@
     "welcomePage.buttonHoverBackground": "#0d3a58",
     "widget.shadow": "#00000026"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -494,10 +495,8 @@
       }
     },
     {
-      "name":
-        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
-      "scope":
-        "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
         "foreground": "#92fc79"
       }
