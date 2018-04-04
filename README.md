@@ -19,6 +19,7 @@
 ```js
 {
   "workbench.colorTheme": "Cobalt2",
+  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
