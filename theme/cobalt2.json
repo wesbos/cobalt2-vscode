@@ -412,6 +412,7 @@
         "source.stylus entity"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#3ad900"
       }
     },
