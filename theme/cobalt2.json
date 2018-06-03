@@ -206,13 +206,13 @@
     // statusBar
     "statusBar.background": "#15232d",
     "statusBar.border": "#0d3a58",
-    "statusBar.debuggingBackground": "#15232d",
-    "statusBar.debuggingForeground": "#0d3a58",
+    "statusBar.debuggingBackground": "#ffc600",
+    "statusBar.debuggingForeground": "#15232d",
     "statusBar.foreground": "#aaa",
     "statusBar.noFolderBackground": "#15232d",
     "statusBar.noFolderForeground": "#aaa",
     "statusBarItem.activeBackground": "#0088ff",
-    "statusBarItem.hoverBackground": "#0d3a58",
+    // "statusBarItem.hoverBackground": "#0d3a58",
     "statusBarItem.prominentBackground": "#15232d",
     "statusBarItem.prominentHoverBackground": "#0d3a58",
     // tab
