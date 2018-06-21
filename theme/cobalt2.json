@@ -299,8 +299,15 @@
       }
     },
     {
+      "name": "Storage Type Function",
+      "scope": "storage.type.function",
+      "settings": {
+        "foreground": "#ff9d00"
+      }
+    },
+    {
       "name": "Keyword",
-      "scope": "keyword, storage.type.class.js",
+      "scope": "keyword, storage.type.class",
       "settings": {
         "foreground": "#ff9d00"
       }
