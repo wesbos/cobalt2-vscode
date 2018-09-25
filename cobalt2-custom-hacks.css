@@ -35,6 +35,16 @@
   background: transparent;
 }
 
+/* This puts an inset shadow onto the minimap scrollbar and permanently shows it */
+.monaco-editor .minimap .minimap-shadow-visible,
+.monaco-editor .minimap .minimap-shadow-hidden {
+  box-shadow: rgba(0, 0, 0, .4) -6px 0 6px -6px inset !important;
+  /* taken from vanilla VS Code theme */
+  position: absolute;
+  left: -6px;
+  width: 6px;
+}
+
 /* This accounts for larger font cutting off - bump up 3px */
 .monaco-workbench>.activitybar>.content .monaco-action-bar .badge .badge-content {
   top: 17px !important;
