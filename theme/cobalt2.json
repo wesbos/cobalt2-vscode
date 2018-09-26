@@ -64,9 +64,9 @@
     // "editor.inactiveSelectionBackground": "",
     // Word Highlights! This happens when you move your cursor inside a variable
     // Strong is the one where your cursor currently is
-    "editor.wordHighlightStrongBackground": "#FFFFFF0D",
+    "editor.wordHighlightStrongBackground": "#ffffff21",
     // and this one is the rest of them
-    "editor.wordHighlightBackground": "#FFFFFF0D",
+    "editor.wordHighlightBackground": "#ffffff21",
     "editorBracketMatch.background": "#0d3a58",
     "editorBracketMatch.border": "#ffc60080",
     "editorCodeLens.foreground": "#aaa",
