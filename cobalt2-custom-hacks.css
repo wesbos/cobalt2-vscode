@@ -3,6 +3,16 @@
 }
 
 /* This makes the dirty tab circle yellow */
+.hc-black
+  .monaco-workbench
+  > .part.editor
+  > .content
+  > .one-editor-silo
+  > .container
+  > .title
+  .tabs-container
+  > .tab.dirty
+  .close-editor-action,
 .vs-dark
   .monaco-workbench
   > .part.editor
