@@ -90,6 +90,7 @@
     "editorHoverWidget.background": "#15232d",
     "editorHoverWidget.border": "#0d3a58",
     "editorIndentGuide.background": "#3B5364",
+    "editorIndentGuide.activeBackground": "#ffc600",
     "editorLineNumber.foreground": "#aaa",
     "editorLink.activeForeground": "#aaa",
     // editorMarkerNavigation
