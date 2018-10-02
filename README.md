@@ -58,7 +58,7 @@ This is a bit weird, but to get some sort of live feedback for when editing a th
 1. Open this repo in your terminal and type `npm install`
 1. Start to watch for change on the repo with `npm start` - this runs a nodemon task for you and will automatically recompile any changes
 1. Open this repo in VS Code
-1. Open your command palette and hit type **VSIX**. Select the one that says **Extensions: Install from VSIX...`
+1. Open your command palette and hit type **VSIX**. Select the one that says **Extensions: Install from VSIX...**
 1. Load the VSIX file that was created a few steps back
 1. Set your editor to use _this_ Cobalt2 theme - it might help to change the name in package.json to something like "Cobalt2 Dev" so you can differentiate from the Cobalt2 you've installed from the marketplace. If you get confused, just delete all traces of Cobalt2 and then load the VSIX.
 1. Go to the debug sidebar `View → Debug`
