@@ -42,7 +42,7 @@
     "editor.foreground": "#fff",
     // Okay this part is confusing as heck!
     // Currently found item
-    "editor.findMatchBackground": "#FF7200",
+    "editor.findMatchBackground": "#FF720066",
     // Other Found Items int the document
     "editor.findMatchHighlightBackground": "#CAD40F66",
     // WTF is this one for? I don't know
