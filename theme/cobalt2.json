@@ -331,6 +331,17 @@
       }
     },
     {
+        "name": "Meta JSX",
+        "scope": [
+            "meta.jsx.children",
+            "meta.jsx.children.js",
+            "meta.jsx.children.tsx"
+        ],
+        "settings": {
+            "foreground": "#fff"
+        }
+    },
+    {
       "name": "Meta Brace",
       "scope": "meta.brace",
       "settings": {
