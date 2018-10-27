@@ -12,7 +12,7 @@
     "activityBarBadge.foreground": "#000",
     // badge
     "badge.background": "#ffc600",
-    "badge.foreground": "#000",
+    "badge.foreground": "#1A1A1A",
     // button
     "button.background": "#0088ff",
     "button.foreground": "#fff",
