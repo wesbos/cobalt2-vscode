@@ -50,7 +50,7 @@
     // When you hover over something and a popup shows, this highlights that thing
     "editor.hoverHighlightBackground": "#ffc60033",
     // when you have something selected, but have lost focus on the editor
-    "editor.inactiveSelectionBackground": "#193549",
+    "editor.inactiveSelectionBackground": "#003b8b",
     // current line styles
     "editor.lineHighlightBackground": "#1F4662",
     "editor.lineHighlightBorder": "#234E6D",
@@ -144,6 +144,8 @@
     "list.hoverForeground": "#aaa",
     "list.inactiveSelectionBackground": "#0d3a58",
     "list.inactiveSelectionForeground": "#aaa",
+    // menu
+    "menu.background": "#122738",
     // merge
     "merge.border": "#ffffff00",
     "merge.commonContentBackground": "#c97d0c",
