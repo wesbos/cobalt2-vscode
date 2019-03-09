@@ -756,6 +756,20 @@
       }
     },
     {
+      "name": "[TYPESCRIPT] - Variable Language",
+      "scope": "variable.language, entity.name.type.class.ts, entity.name.type.class.tsx",
+      "settings": {
+        "foreground": "#fb94ff"
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Inherited Component",
+      "scope": "entity.other.inherited-class.ts, entity.other.inherited-class.tsx",
+      "settings": {
+        "foreground": "#ccc"
+      }
+    },
+    {
       "name": "[PHP] - Entity",
       "scope": "source.php entity",
       "settings": {
@@ -797,7 +811,11 @@
         "this",
         "comment",
         "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
         "entity.other.attribute-name.js",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx",
         "entity.other.attribute-name.html"
       ],
       "settings": {
