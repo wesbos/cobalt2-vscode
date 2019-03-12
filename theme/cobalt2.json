@@ -832,6 +832,27 @@
       "settings": {
         "fontStyle": "italic"
       }
+    },
+    {
+      "name": "[CSHARP] - Modifiers and keyword types",
+      "scope": "storage.modifier.cs, keyword.type.cs",
+      "settings": {
+        "foreground": "#fb94ff"
+      }
+    },
+    {
+      "name": "[CSHARP] - Storage types",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": "#80ffbb"
+      }
+    },
+    {
+      "name": "[CSHARP] - Namespaces, parameters, field variables, properties",
+      "scope": "entity.name.type.namespace.cs, entity.name.variable.parameter.cs, entity.name.variable.field.cs, entity.name.variable.property.cs",
+      "settings": {
+        "foreground": "#e1efff"
+      }
     }
   ]
 }
