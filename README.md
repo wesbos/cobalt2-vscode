@@ -86,6 +86,38 @@ https://code.visualstudio.com/docs/getstarted/theme-color-reference
 * [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
 * [Slack](https://github.com/wesbos/Cobalt2-Slack)
 
+## Color pallette
+- ![#122738](https://placehold.it/20/122738/000000?text=+) `#122738`
+- ![#0d3a58](https://placehold.it/20/0d3a58/000000?text=+) `#0d3a58`
+- ![#ffc600](https://placehold.it/20/ffc600/000000?text=+) `#ffc600`
+- ![#0088ff](https://placehold.it/20/0088ff/000000?text=+) `#0088ff`
+- ![#ff9d00](https://placehold.it/20/ff9d00/000000?text=+) `#ff9d00`
+- ![#193549](https://placehold.it/20/193549/000000?text=+) `#193549`
+- ![#aaaaaa](https://placehold.it/20/aaaaaa/000000?text=+) `#aaaaaa`
+- ![#15232d](https://placehold.it/20/15232d/000000?text=+) `#15232d`
+- ![#ff7200](https://placehold.it/20/ff7200/000000?text=+) `#ff7200`
+- ![#243e51](https://placehold.it/20/243e51/000000?text=+) `#243e51`
+- ![#1f4662](https://placehold.it/20/1f4662/000000?text=+) `#1f4662`
+- ![#234e6d](https://placehold.it/20/234e6d/000000?text=+) `#234e6d`
+- ![#0050a4](https://placehold.it/20/0050a4/000000?text=+) `#0050a4`
+- ![#a22929](https://placehold.it/20/a22929/000000?text=+) `#a22929`
+- ![#3c9f4a](https://placehold.it/20/3c9f4a/000000?text=+) `#3c9f4a`
+- ![#26506d](https://placehold.it/20/26506d/000000?text=+) `#26506d`
+- ![#3b5364](https://placehold.it/20/3b5364/000000?text=+) `#3b5364`
+- ![#ff628c](https://placehold.it/20/ff628c/000000?text=+) `#ff628c`
+- ![#3ad900](https://placehold.it/20/3ad900/000000?text=+) `#3ad900`
+- ![#8dffff](https://placehold.it/20/8dffff/000000?text=+) `#8dffff`
+- ![#80fcff](https://placehold.it/20/80fcff/000000?text=+) `#80fcff`
+- ![#fb94ff](https://placehold.it/20/fb94ff/000000?text=+) `#fb94ff`
+- ![#ff628c](https://placehold.it/20/ff628c/000000?text=+) `#ff628c`
+- ![#9effff](https://placehold.it/20/9effff/000000?text=+) `#9effff`
+- ![#e1efff](https://placehold.it/20/e1efff/000000?text=+) `#e1efff`
+- ![#ffee80](https://placehold.it/20/ffee80/000000?text=+) `#ffee80`
+- ![#a5ff90](https://placehold.it/20/a5ff90/000000?text=+) `#a5ff90`
+- ![#ffb454](https://placehold.it/20/ffb454/000000?text=+) `#ffb454`
+
+
 ## Thanks
 
 Thanks to Roberto Achar for doing much of the initial porting to VS Code.
+
