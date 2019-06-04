@@ -39,6 +39,7 @@
     ],
     "editor.renderWhitespace": "all",
     "terminal.integrated.shell.osx": "zsh",
+    // To choose the settings from an external app like iTerm and zsh, use the following:
     // "terminal.external.osxExec": "iTerm2.app",
     "terminal.explorerKind": "integrated",
     "terminal.integrated.fontFamily": "Inconsolata for Powerline"
