@@ -29,23 +29,9 @@
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
-  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-  // you'll need to change this to an absolute path on your computer
-  "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-  ],
   "editor.renderWhitespace": "all",
 }
 ```
-
-## Important: CSS Hacks For Extra Sweet Editor
-Some things in VS code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
-
-Once done, open your command palette and select enable **custom CSS and JS**
-
-![Custom CSS/JS Hack](https://d3vv6lp55qjaqc.cloudfront.net/items/0B37352D3s2A2e33353c/Screen%20Shot%202017-09-15%20at%2011.02.49%20AM.png?X-CloudApp-Visitor-Id=26998&v=7ff79bcc)
-
-Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
 ## Contributing
 This is a bit weird, but to get some sort of live feedback for when editing a theme. Please let me know if you have a saner way of doing it
