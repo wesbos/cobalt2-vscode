@@ -3,17 +3,14 @@
 }
 
 /* This makes the dirty tab circle yellow */
-.vs-dark
-  .monaco-workbench
-  > .part.editor
-  > .content
-  .editor-group-container
-  > .title
-  .tabs-container
-  > .tab.dirty
-  .close-editor-action {
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.dirty .tab-close .monaco-action-bar .actions-container .action-item{
   background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' height='16' width='16'%3E%3Ccircle fill='%23ffc600' cx='8' cy='8' r='4'/%3E%3C/svg%3E")
     50% no-repeat;
+  position: relative;
+  right: 4px;
+}
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.dirty .tab-close .monaco-action-bar .actions-container{
+  color: rgba(0,0,0,0);
 }
 
 .monaco-workbench > .part.editor > .content .editor-group-container {
