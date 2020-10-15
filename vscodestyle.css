@@ -1,0 +1,5 @@
+/* This change color to cyan for the select language mode */
+#status\.editor\.mode {
+    color: cyan !important;
+    font-weight: 600;
+  }
