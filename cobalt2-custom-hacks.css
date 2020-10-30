@@ -40,3 +40,9 @@
 .monaco-workbench>.activitybar>.content .monaco-action-bar .badge .badge-content {
   top: 17px !important;
 }
+
+/* This change color to cyan for the select language mode */
+#status\.editor\.mode {
+  color: cyan !important;
+  font-weight: 600;
+}
