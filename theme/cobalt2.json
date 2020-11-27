@@ -18,6 +18,9 @@
     }
   },
   "colors": {
+    // menu
+    "menu.selectionForeground": "#fff",
+    "menubar.selectionBackground": "#0d3a58",
     // activityBar
     "activityBar.background": "#122738",
     "activityBar.border": "#0d3a58",
@@ -99,7 +102,7 @@
     "editorGroup.dropBackground": "#12273899",
     // editorGroupHeader
     "editorGroupHeader.noTabsBackground": "#193549",
-    "editorGroupHeader.tabsBackground": "#193549",
+    "editorGroupHeader.tabsBackground": "#122738",
     "editorGroupHeader.tabsBorder": "#15232d",
     // editorHoverWidget
     "editorHoverWidget.background": "#15232d",
@@ -232,11 +235,11 @@
     "statusBarItem.prominentBackground": "#15232d",
     "statusBarItem.prominentHoverBackground": "#0d3a58",
     // tab
-    "tab.activeBackground": "#122738",
+    "tab.activeBackground": "#193549",
     "tab.activeForeground": "#fff",
     "tab.border": "#15232D",
     "tab.activeBorder": "#ffc600",
-    "tab.inactiveBackground": "#193549",
+    "tab.inactiveBackground": "#122738",
     "tab.inactiveForeground": "#aaa",
     "tab.unfocusedActiveForeground": "#aaa",
     "tab.unfocusedInactiveForeground": "#aaa",
