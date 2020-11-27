@@ -2,6 +2,21 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Cobalt",
   "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "function": {
+      "foreground": "#ffc600"
+    },
+    "variable": "#fff",
+    "interface": {
+      "foreground": "#ff0088",
+      "italic": true
+    },
+    "type": {
+      "foreground": "#ff0088",
+      "italic": true
+    }
+  },
   "colors": {
     // activityBar
     "activityBar.background": "#122738",
@@ -303,7 +318,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword, storage.type.class.js",
+      "scope": "keyword, storage.type.class.js, keyword.control.default.ts",
       "settings": {
         "foreground": "#ff9d00"
       }
@@ -539,7 +554,7 @@
     },
     {
       "name": "[JAVASCRIPT] - Storage Type Function",
-      "scope": "source.js storage.type.function",
+      "scope": "source.js storage.type.function, source.ts storage.type.function",
       "settings": {
         "foreground": "#fb94ff"
       }
@@ -751,13 +766,6 @@
       }
     },
     {
-      "name": "[TYPESCRIPT] - Storage",
-      "scope": "source.ts storage",
-      "settings": {
-        "foreground": "#9effff"
-      }
-    },
-    {
       "name": "[PHP] - Entity",
       "scope": "source.php entity",
       "settings": {
@@ -777,12 +785,32 @@
         "modifier",
         "this",
         "comment",
-        "storage.modifier.js",
+        "storage.modifier",
         "entity.other.attribute-name.js"
       ],
       "settings": {
         "fontStyle": "italic"
       }
-    }
+    },
+    {
+      "name": "Export Default",
+      "scope": [
+        "keyword.control.export"
+      ],
+      "settings": {
+        "foreground": "#ff9d00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] Returned Type",
+      "scope": [
+        "meta.return.type.ts"
+      ],
+      "settings": {
+        "foreground": "#ff0088",
+        "fontStyle": "italic"
+      }
+    },
   ]
 }

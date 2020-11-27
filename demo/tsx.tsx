@@ -3,14 +3,10 @@ interface Shoe {
   name: string;
 }
 
-type Age = 1 | 2;
-
 interface Food {
   type: 'fruit' | 'vegetable';
   name: string;
 }
-
-const myAge: Age = 100;
 
 function generateSome<T>(howMany: number): T {
   return {
@@ -19,13 +15,15 @@ function generateSome<T>(howMany: number): T {
   };
 }
 
+const unusedVariable;
+
+export default async function unreachableCode() {
+  return 10;
+}
+
 const myShoe = generateSome<Shoe>(10);
 
 const banana: Food = {
   type: 'fruit',
   name: 'Banana',
 };
-
-export default async function Hello() {
-
-}

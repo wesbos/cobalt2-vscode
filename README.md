@@ -33,26 +33,31 @@
 }
 ```
 
+## Colours
+Blue: #193549
+Blue Highlight: #1F4662
+Blue Highlight2: #234E6D
+Blue Dark: #122738
+Yellow: #ffc600
+Hot Pink: #ff0088
+Blush Pink: #ff628c
+Orange: #ff9d00
+Green
+
 ## Contributing
-This is a bit weird, but to get some sort of live feedback for when editing a theme. Please let me know if you have a saner way of doing it
 
-1. Open this repo in your terminal and type `npm install`
-1. Start to watch for change on the repo with `npm start` - this runs a nodemon task for you and will automatically recompile any changes
-1. Open this repo in VS Code
-1. Open your command palette and hit type **VSIX**. Select the one that says **Extensions: Install from VSIX...`
-1. Load the VSIX file that was created a few steps back
-1. Set your editor to use _this_ Cobalt2 theme - it might help to change the name in package.json to something like "Cobalt2 Dev" so you can differentiate from the Cobalt2 you've installed from the marketplace. If you get confused, just delete all traces of Cobalt2 and then load the VSIX.
-1. Go to the debug sidebar `View → Debug`
-1. Press the green arrow beside "Launch Extension"
-1. This will then open a second window.
-1. Make a change, and then hit the refresh button on your debug toolbar - this is in your first editor - not the one that poped open.
-1. Wait a sec, your changes should now be reflected!
+To work on the theme:
 
-Whew. Again, if you have an easier way to style these things, let me know!
+1. Clone this repo and open in VS Code
+2. Open run `View → Run`
+3. Click `Launch Extension`. This will open up another VS Code Editor
+4. Make changes to `cobalt2.json`. You will see changes reflected in the other editor that opened in step 3.
+
+If you are making a Pull Request, Please give me a screenshot of before/after!
 
 ## I don't like something
 
-First, this theme is new so if something is funky, please open an issue.
+First, this theme is new so if something is funky, please open an issue. There are many languages and parts of VS Code I don't use, so let me know!
 
 These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colours in your own settings.json file.
 
