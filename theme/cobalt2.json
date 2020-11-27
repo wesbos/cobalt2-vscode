@@ -33,7 +33,7 @@
     "button.foreground": "#fff",
     "button.hoverBackground": "#ff9d00",
     // contrast
-    "contrastActiveBorder": null,
+    // "contrastActiveBorder": null,
     "contrastBorder": "#ffffff00",
     // debug
     "debugExceptionWidget.background": "#193549",
@@ -42,9 +42,9 @@
     // description
     "descriptionForeground": "#aaa",
     // diff
-    "diffEditor.insertedTextBackground": "#3ad90011",
+    "diffEditor.insertedTextBackground": "#3ad90033",
     "diffEditor.insertedTextBorder": "#3ad90055",
-    "diffEditor.removedTextBackground": "#ee3a4311",
+    "diffEditor.removedTextBackground": "#ee3a4333",
     "diffEditor.removedTextBorder": "#ee3a4355",
     // dropdown
     "dropdown.background": "#193549",
@@ -57,7 +57,7 @@
     "editor.foreground": "#fff",
     // Okay this part is confusing as heck!
     // Currently found item
-    "editor.findMatchBackground": "#FF7200",
+    "editor.findMatchBackground": "#FF720066",
     // Other Found Items int the document
     "editor.findMatchHighlightBackground": "#CAD40F66",
     // WTF is this one for? I don't know
@@ -65,7 +65,7 @@
     // When you hover over something and a popup shows, this highlights that thing
     "editor.hoverHighlightBackground": "#ffc60033",
     // when you have something selected, but have lost focus on the editor
-    "editor.inactiveSelectionBackground": "#193549",
+    "editor.inactiveSelectionBackground": "#003b8b",
     // current line styles
     "editor.lineHighlightBackground": "#1F4662",
     "editor.lineHighlightBorder": "#234E6D",
@@ -79,9 +79,9 @@
     // "editor.inactiveSelectionBackground": "",
     // Word Highlights! This happens when you move your cursor inside a variable
     // Strong is the one where your cursor currently is
-    "editor.wordHighlightStrongBackground": "#FFFFFF0D",
+    "editor.wordHighlightStrongBackground": "#ffffff21",
     // and this one is the rest of them
-    "editor.wordHighlightBackground": "#FFFFFF0D",
+    "editor.wordHighlightBackground": "#ffffff21",
     "editorBracketMatch.background": "#0d3a58",
     "editorBracketMatch.border": "#ffc60080",
     "editorCodeLens.foreground": "#aaa",
@@ -159,26 +159,25 @@
     "list.hoverForeground": "#aaa",
     "list.inactiveSelectionBackground": "#0d3a58",
     "list.inactiveSelectionForeground": "#aaa",
+    // menu
+    "menu.background": "#122738",
     // merge
     "merge.border": "#ffffff00",
-    "merge.commonContentBackground": "#ffffff00",
-    "merge.commonHeaderBackground": "#ffffff00",
-    "merge.currentContentBackground": "#ffffff00",
-    "merge.currentHeaderBackground": "#ffffff00",
-    "merge.incomingContentBackground": "#ffffff00",
-    "merge.incomingHeaderBackground": "#ffffff00",
-    // notification
-    "notification.background": "#ffc600",
-    "notification.buttonBackground": "#0088ff",
-    "notification.buttonForeground": "#fff",
-    "notification.buttonHoverBackground": "#ff9d00",
-    "notification.errorBackground": "#A22929",
-    "notification.errorForeground": "#fff",
-    "notification.foreground": "#000",
-    "notification.infoBackground": "#0088ff",
-    "notification.infoForeground": "#fff",
-    "notification.warningBackground": "#ff9d00",
-    "notification.warningForeground": "#000",
+    "merge.commonContentBackground": "#c97d0c",
+    "merge.commonHeaderBackground": "#c97d0c",
+    "merge.currentContentBackground": "#2F7366",
+    "merge.currentHeaderBackground": "#2F7366",
+    "merge.incomingContentBackground": "#185294",
+    "merge.incomingHeaderBackground": "#185294",
+    // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
+    "notificationCenter.border": "#ffc600",
+    "notificationCenterHeader.foreground": "#aaa",
+    "notificationCenterHeader.background": "#122738",
+    "notificationToast.border": "#ffc600",
+    "notifications.foreground": "#aaa",
+    "notifications.background": "#122738",
+    "notifications.border": "#ffc600",
+    "notificationLink.foreground": "#ffc600",
     // panel
     "panel.background": "#122738",
     "panel.border": "#ffc600",
@@ -222,9 +221,11 @@
     "statusBar.background": "#15232d",
     "statusBar.border": "#0d3a58",
     "statusBar.debuggingBackground": "#15232d",
-    "statusBar.debuggingForeground": "#0d3a58",
+    "statusBar.debuggingBorder": "#ffc600",
+    "statusBar.debuggingForeground": "#ffc600",
     "statusBar.foreground": "#aaa",
     "statusBar.noFolderBackground": "#15232d",
+    "statusBar.noFolderBorder": "#0d3a58",
     "statusBar.noFolderForeground": "#aaa",
     "statusBarItem.activeBackground": "#0088ff",
     "statusBarItem.hoverBackground": "#0d3a58",
@@ -255,7 +256,7 @@
     "terminal.ansiBrightBlue": "#0088ff",
     "terminal.ansiBrightMagenta": "#fb94ff",
     "terminal.ansiBrightCyan": "#80fcff",
-    "terminal.ansiBrightWhite": "#193549",
+    "terminal.ansiBrightWhite": "#ffffff",
     "terminal.background": "#122738",
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#ffc600",
@@ -264,7 +265,7 @@
     "gitDecoration.modifiedResourceForeground": "#ffc600",
     "gitDecoration.deletedResourceForeground": "#ff628c",
     "gitDecoration.untrackedResourceForeground": "#3ad900",
-    "gitDecoration.ignoredResourceForeground": "#ff628c",
+    "gitDecoration.ignoredResourceForeground": "#808080",
     "gitDecoration.conflictingResourceForeground": "#FF7200",
     // textBlockQuote
     "textBlockQuote.background": "#193549",
@@ -317,8 +318,15 @@
       }
     },
     {
+      "name": "Storage Type Function",
+      "scope": "storage.type.function",
+      "settings": {
+        "foreground": "#ff9d00"
+      }
+    },
+    {
       "name": "Keyword",
-      "scope": "keyword, storage.type.class.js, keyword.control.default.ts",
+      "scope": "keyword, storage.type.class, keyword.control.default.ts",
       "settings": {
         "foreground": "#ff9d00"
       }
@@ -328,6 +336,17 @@
       "scope": "meta",
       "settings": {
         "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "Meta JSX",
+      "scope": [
+        "meta.jsx.children",
+        "meta.jsx.children.js",
+        "meta.jsx.children.tsx"
+      ],
+      "settings": {
+        "foreground": "#fff"
       }
     },
     {
@@ -780,13 +799,41 @@
       }
     },
     {
+      "name": "[C#] - Annotations",
+      "scope": "storage.type.cs",
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[C#] - Properties",
+      "scope": "entity.name.variable.property.cs",
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[C#] - Storage modifiers",
+      "scope": "storage.modifier.cs",
+      "settings": {
+        "foreground": "#80ffbb"
+      }
+    },
+    {
       "name": "Italicsify for Operator Mono",
       "scope": [
         "modifier",
         "this",
         "comment",
         "storage.modifier",
-        "entity.other.attribute-name.js"
+        "entity.other.attribute-name.js",
+        // "storage.modifier.js",
+        // "storage.modifier.ts",
+        // "storage.modifier.tsx",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "fontStyle": "italic"
