@@ -1,3 +1,4 @@
+// eslint-disabled
 interface Shoe {
   size: number;
   name: string;
@@ -10,23 +11,21 @@ interface Food {
   name: string;
 }
 
-const myAge: Age = 100;
+const myAge: Age = 2;
 
 function generateSome<T>(howMany: number): T {
-  return {
-    size: 10,
-    name: 'wes',
-  };
+  return 100;
 }
 
 const myShoe = generateSome<Shoe>(10);
 
 const banana: Food = {
   type: 'fruit',
+  name: 'nanski'
 }
 
-document.querySelector('a.hey')
 
-export default async function Hello(name: Food): Food {
-  console
+export default async function Hello(name: Food): Promise<Food> {
+  return banana;
 }
+console.log(myAge, banana)
