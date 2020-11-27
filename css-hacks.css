@@ -1,0 +1,8 @@
+.hover-contents,
+.hover-contents code,
+.code-hover-contents,
+.code-hover-contents code
+{
+  border: 2px solid hotpink;
+  font-size: 10px;
+}

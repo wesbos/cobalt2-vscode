@@ -55,6 +55,14 @@ To work on the theme:
 
 If you are making a Pull Request, Please give me a screenshot of before/after!
 
+## Deploying a new version
+
+These are mostly notes for me.
+
+1. Increment the version number in `package.json`
+1. run `npm run bundle`
+1.
+
 ## I don't like something
 
 First, this theme is new so if something is funky, please open an issue. There are many languages and parts of VS Code I don't use, so let me know!

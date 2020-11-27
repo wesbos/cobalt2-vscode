@@ -23,9 +23,10 @@ const myShoe = generateSome<Shoe>(10);
 
 const banana: Food = {
   type: 'fruit',
-  name: 'Banana',
-};
+}
 
-export default async function Hello() {
+document.querySelector('a.hey')
 
+export default async function Hello(name: Food): Food {
+  console
 }

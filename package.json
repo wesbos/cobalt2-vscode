@@ -1,6 +1,6 @@
 {
   "name": "theme-cobalt2",
-  "version": "2.1.6",
+  "version": "2.2.0",
   "displayName": "Cobalt2 Theme Official",
   "description": "🔥 Official theme by Wes Bos.",
   "publisher": "wesbos",
@@ -24,7 +24,8 @@
     "vscode": "^1.15.0"
   },
   "scripts": {
-    "start": "nodemon --exec vsce package"
+    "bundle": "vsce package",
+    "publish": "vsce publish"
   },
   "contributes": {
     "themes": [
@@ -36,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^1.14.12",
-    "vsce": "^1.36.2"
+    "vsce": "^1.81.1"
   }
 }
