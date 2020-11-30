@@ -28,4 +28,13 @@ const banana: Food = {
 export default async function Hello(name: Food): Promise<Food> {
   return banana;
 }
+
+
+async function myString(): Promise<string> {
+  return 'hey';
+}
+
+async function myAge(): Promise<Age> {
+  return 'hey';
+}
 console.log(myAge, banana)

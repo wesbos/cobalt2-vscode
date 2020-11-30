@@ -10,7 +10,7 @@
     "variable": "#fff",
     "interface": {
       // "foreground": "#ff0088",
-      "foreground": "#≈",
+      "foreground": "#FF68B8",
       "italic": true
     },
     "type": {
@@ -18,7 +18,7 @@
       "foreground": "#FF68B8",
       "italic": true
     },
-    // This colours both object definiton properties, as well as references. If the property does not exist, it will be white.
+    // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
     "property": "#9effff",
   },
   "colors": {
