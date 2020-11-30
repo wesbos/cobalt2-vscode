@@ -42,6 +42,7 @@
 ```
 
 ## Colours
+
 Blue: #193549
 Blue Highlight: #1F4662
 Blue Highlight2: #234E6D
@@ -51,7 +52,7 @@ Hot Pink: #ff0088
 Blush Pink: #ff628c
 Orange: #ff9d00
 Green
-=======
+
 ## Important: CSS Hacks For Extra Sweet Editor
 Some things in VS Code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
 
