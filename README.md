@@ -29,8 +29,7 @@
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
-<<<<<<< HEAD
-=======
+
   // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
   // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
   // Mac/Linux: file:///Users/YOUR-PC-USERNAME/.vscodestyles.css
@@ -38,12 +37,9 @@
   "vscode_custom_css.imports": [
     "file:///Users/wesbos/.vscodestyles.css"
   ],
->>>>>>> 23236db2a2b0a327f73455e88bf8432e7899e0a7
-  "editor.renderWhitespace": "all",
 }
 ```
 
-<<<<<<< HEAD
 ## Colours
 Blue: #193549
 Blue Highlight: #1F4662
@@ -57,7 +53,6 @@ Green
 =======
 ## Important: CSS Hacks For Extra Sweet Editor
 Some things in VS Code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
->>>>>>> 23236db2a2b0a327f73455e88bf8432e7899e0a7
 
 ## Contributing
 
@@ -68,7 +63,7 @@ To work on the theme:
 3. Click `Launch Extension`. This will open up another VS Code Editor
 4. Make changes to `cobalt2.json`. You will see changes reflected in the other editor that opened in step 3.
 
-<<<<<<< HEAD
+
 If you are making a Pull Request, Please give me a screenshot of before/after!
 
 ## Deploying a new version
@@ -76,9 +71,8 @@ If you are making a Pull Request, Please give me a screenshot of before/after!
 These are mostly notes for me.
 
 1. Increment the version number in `package.json`
-1. run `npm run bundle`
-1.
-=======
+2. run `npm run bundle`
+
 **_Note: Reloading custom CSS and JS after every VSCode update is a must!_**
 
 ## Contributing
@@ -97,7 +91,7 @@ This is a bit weird, but to get some sort of live feedback for when editing a th
 1. Wait a sec, your changes should now be reflected!
 
 Whew. Again, if you have an easier way to style these things, let me know!
->>>>>>> 23236db2a2b0a327f73455e88bf8432e7899e0a7
+
 
 ## I don't like something
 
