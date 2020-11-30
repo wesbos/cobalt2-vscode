@@ -44,13 +44,21 @@
 ## Colours
 
 Blue: #193549
+
 Blue Highlight: #1F4662
+
 Blue Highlight2: #234E6D
+
 Blue Dark: #122738
+
 Yellow: #ffc600
+
 Hot Pink: #ff0088
+
 Blush Pink: #ff628c
+
 Orange: #ff9d00
+
 Green
 
 ## Important: CSS Hacks For Extra Sweet Editor
