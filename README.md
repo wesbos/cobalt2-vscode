@@ -29,21 +29,10 @@
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
-<<<<<<< HEAD
-=======
-  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-  // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
-  // Mac/Linux: file:///Users/YOUR-PC-USERNAME/.vscodestyles.css
-  // Windows: file:///C:/Users/YOUR-PC-USERNAME/.vscodestyles.css
-  "vscode_custom_css.imports": [
-    "file:///Users/wesbos/.vscodestyles.css"
-  ],
->>>>>>> 23236db2a2b0a327f73455e88bf8432e7899e0a7
   "editor.renderWhitespace": "all",
 }
 ```
 
-<<<<<<< HEAD
 ## Colours
 Blue: #193549
 Blue Highlight: #1F4662
@@ -54,10 +43,6 @@ Hot Pink: #ff0088
 Blush Pink: #ff628c
 Orange: #ff9d00
 Green
-=======
-## Important: CSS Hacks For Extra Sweet Editor
-Some things in VS Code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
->>>>>>> 23236db2a2b0a327f73455e88bf8432e7899e0a7
 
 ## Contributing
 
