@@ -37,6 +37,7 @@
   "vscode_custom_css.imports": [
     "file:///Users/wesbos/.vscodestyles.css"
   ],
+  "editor.renderWhitespace": "all",
 }
 ```
 
