@@ -9,11 +9,13 @@
     },
     "variable": "#fff",
     "interface": {
-      "foreground": "#ff0088",
+      // "foreground": "#ff0088",
+      "foreground": "#FF68B8",
       "italic": true
     },
     "type": {
-      "foreground": "#ff0088",
+      // "foreground": "#ff0088",
+      "foreground": "#FF68B8",
       "italic": true
     }
   },

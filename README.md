@@ -68,7 +68,6 @@ To work on the theme:
 3. Click `Launch Extension`. This will open up another VS Code Editor
 4. Make changes to `cobalt2.json`. You will see changes reflected in the other editor that opened in step 3.
 
-<<<<<<< HEAD
 If you are making a Pull Request, Please give me a screenshot of before/after!
 
 ## Deploying a new version
@@ -78,26 +77,6 @@ These are mostly notes for me.
 1. Increment the version number in `package.json`
 1. run `npm run bundle`
 1.
-=======
-**_Note: Reloading custom CSS and JS after every VSCode update is a must!_**
-
-## Contributing
-This is a bit weird, but to get some sort of live feedback for when editing a theme. Please let me know if you have a saner way of doing it
-
-1. Open this repo in your terminal and type `npm install`
-1. Start to watch for change on the repo with `npm start` - this runs a nodemon task for you and will automatically recompile any changes
-1. Open this repo in VS Code
-1. Open your command palette and hit type **VSIX**. Select the one that says **Extensions: Install from VSIX...**
-1. Load the VSIX file that was created a few steps back
-1. Set your editor to use _this_ Cobalt2 theme - it might help to change the name in package.json to something like "Cobalt2 Dev" so you can differentiate from the Cobalt2 you've installed from the marketplace. If you get confused, just delete all traces of Cobalt2 and then load the VSIX.
-1. Go to the debug sidebar `View → Debug`
-1. Press the green arrow beside "Launch Extension"
-1. This will then open a second window.
-1. Make a change, and then hit the refresh button on your debug toolbar - this is in your first editor - not the one that poped open.
-1. Wait a sec, your changes should now be reflected!
-
-Whew. Again, if you have an easier way to style these things, let me know!
->>>>>>> 23236db2a2b0a327f73455e88bf8432e7899e0a7
 
 ## I don't like something
 
