@@ -7,7 +7,7 @@
     "function": {
       "foreground": "#ffc600"
     },
-    "variable": "#d4d229",
+    "variable": "#fff",
     "interface": {
       // "foreground": "#ff0088",
       "foreground": "#FF68B8",
@@ -314,7 +314,7 @@
       "name": "Entity",
       "scope": "entity",
       "settings": {
-        "foreground": "#4f92e9"
+        "foreground": "#ffc600"
       }
     },
     {
