@@ -293,6 +293,34 @@
   },
   "tokenColors": [
     {
+      "name": "Markup Inserted",
+      "scope": ["markup.inserted", "meta.diff.header.to-file"],
+      "settings": {
+        "foreground": "#a5ff90"
+      }
+    },
+    {
+      "name": "Markup Inserted Punctuation",
+      "scope": ["punctuation.definition.inserted"],
+      "settings": {
+        "foreground": "#a5ff9077"
+      }
+    },
+    {
+      "name": "Markup Deleted",
+      "scope": ["markup.deleted", "meta.diff.header.from-file"],
+      "settings": {
+        "foreground": "#ff628c"
+      }
+    },
+    {
+      "name": "Markup Deleted Punctuation",
+      "scope": ["punctuation.definition.deleted"],
+      "settings": {
+        "foreground": "#ff628c77"
+      }
+    },
+    {
       "name": "Comment",
       "scope": [
         "comment",
