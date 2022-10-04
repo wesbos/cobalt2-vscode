@@ -213,8 +213,8 @@
     // scrollbar
     "scrollbar.shadow": "#00000000",
     "scrollbarSlider.activeBackground": "#355166cc",
-    "scrollbarSlider.background": "#1F466280",
-    "scrollbarSlider.hoverBackground": "#406179cc",
+    "scrollbarSlider.background": "#406179cc",
+    "scrollbarSlider.hoverBackground": "#437da3cc",
     // selection
     "selection.background": "#027dff",
     // sidebar
