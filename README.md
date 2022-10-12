@@ -4,7 +4,6 @@
 
 ![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
 
-
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
@@ -19,22 +18,28 @@
 {
   // This is all that matters
   "workbench.colorTheme": "Cobalt2",
-  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives 
+  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 17,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 17,
+  "editor.fontWeight": "400",
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
-  "files.trimTrailingWhitespace": true,
-  "editor.fontWeight": "400",
-  "prettier.eslintIntegration": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 4,
   "editor.cursorStyle": "line",
-  "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "all",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.cursorWidth": 5,
+  "files.trimTrailingWhitespace": true,
+  "prettier.eslintIntegration": true,
 }
 ```
 
 ## Colours
+
 Blue: #193549
 Blue Highlight: #1F4662
 Blue Highlight2: #234E6D
@@ -74,12 +79,12 @@ https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
 ## Put Cobalt2 in other places!
 
-* [Sublime Text](https://github.com/wesbos/cobalt2)
-* [Atom](https://github.com/wesbos/Cobalt2-atom)
-* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
-* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
-* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-* [Slack](https://github.com/wesbos/Cobalt2-Slack)
+-   [Sublime Text](https://github.com/wesbos/cobalt2)
+-   [Atom](https://github.com/wesbos/Cobalt2-atom)
+-   [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
+-   [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
+-   [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
+-   [Slack](https://github.com/wesbos/Cobalt2-Slack)
 
 ## Thanks
 
