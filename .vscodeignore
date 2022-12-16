@@ -5,6 +5,5 @@ images/logo.sketch
 .gitattributes
 .editorconfig
 node_modules
-images/
 *.vsix
 .editorconfig
