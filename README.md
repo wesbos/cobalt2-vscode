@@ -59,7 +59,7 @@ If you are making a Pull Request, Please give me a screenshot of before/after!
 
 These are mostly notes for me.
 
-1. Increment the version number in `package.json`
+1. Increment the version number in `package.json` with `npm version major|minor|patch`
 1. run `npm run bundle`
 1. run `npm run publish`
 
