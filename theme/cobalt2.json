@@ -93,8 +93,11 @@
     "editorBracketMatch.border": "#ffc60080",
     "editorCodeLens.foreground": "#aaa",
     "editorCursor.foreground": "#ffc600",
+    // Errors
     "editorError.border": "#0d3a58",
     "editorError.foreground": "#A22929",
+    // Hints (little dots under the beginning of a word)
+    "editorHint.foreground": "#ffc600",
     // gutter
     "editorGutter.background": "#12273866",
     "editorGutter.addedBackground": "#3C9F4A",

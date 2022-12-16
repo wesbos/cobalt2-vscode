@@ -61,9 +61,11 @@ These are mostly notes for me.
 
 1. Increment the version number in `package.json`
 1. run `npm run bundle`
-1.
+1. run `npm run publish`
 
 ## I don't like something
+
+You don't need to fork it!
 
 First, this theme is new so if something is funky, please open an issue. There are many languages and parts of VS Code I don't use, so let me know!
 
