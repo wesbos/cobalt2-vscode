@@ -76,6 +76,7 @@ https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
 ## Put Cobalt2 in other places!
 
+* [Warp](https://github.com/wesbos/cobalt2-warp)
 * [Sublime Text](https://github.com/wesbos/cobalt2)
 * [Atom](https://github.com/wesbos/Cobalt2-atom)
 * [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
