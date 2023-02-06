@@ -50,9 +50,9 @@
     "descriptionForeground": "#aaa",
     // diff
     "diffEditor.insertedTextBackground": "#3ad90033",
-    "diffEditor.insertedTextBorder": "#3ad90055",
+    "diffEditor.insertedTextBorder": "#00000000",
     "diffEditor.removedTextBackground": "#ee3a4333",
-    "diffEditor.removedTextBorder": "#ee3a4355",
+    "diffEditor.removedTextBorder": "#00000000",
     // dropdown
     "dropdown.background": "#193549",
     "dropdown.border": "#15232d",
