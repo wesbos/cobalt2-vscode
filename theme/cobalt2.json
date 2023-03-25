@@ -372,7 +372,7 @@
       "name": "Meta",
       "scope": "meta",
       "settings": {
-        "foreground": "#9effff"
+        "foreground": "#fb94ff"
       }
     },
     {
@@ -618,7 +618,7 @@
       "name": "[PYTHON] - Self Argument",
       "scope": ["variable.parameter.function.language.special.self.python","meta.function-call.generic.python"],
       "settings": {
-        "foreground": "#fb94ff"
+        "foreground": "#9effff"
       }
     },
     {
