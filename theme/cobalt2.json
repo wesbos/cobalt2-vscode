@@ -15,8 +15,7 @@
     },
     "type": {
       // "foreground": "#ff0088",
-      "foreground": "#FF68B8",
-      "italic": true
+      "foreground": "#FF68B8"
     },
     // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
     "property": "#9effff"
@@ -616,7 +615,10 @@
     },
     {
       "name": "[PYTHON] - Self Argument",
-      "scope": ["variable.parameter.function.language.special.self.python","meta.function-call.generic.python"],
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "meta.function-call.generic.python"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
