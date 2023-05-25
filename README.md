@@ -4,7 +4,6 @@
 
 ![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
 
-
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
@@ -35,6 +34,7 @@
 ```
 
 ## Colours
+
 Blue: #193549
 Blue Highlight: #1F4662
 Blue Highlight2: #234E6D
@@ -62,7 +62,7 @@ These are mostly notes for me.
 
 1. Increment the version number in `package.json` with `npm version major|minor|patch`
 1. run `npm run bundle`
-1. run `npm run publish`
+1. run `npm publish` to publish both to npm and vscode extension store
 
 ## I don't like something
 
@@ -76,13 +76,13 @@ https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
 ## Put Cobalt2 in other places!
 
-* [Warp](https://github.com/wesbos/cobalt2-warp)
-* [Sublime Text](https://github.com/wesbos/cobalt2)
-* [Atom](https://github.com/wesbos/Cobalt2-atom)
-* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
-* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
-* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-* [Slack](https://github.com/wesbos/Cobalt2-Slack)
+- [Warp](https://github.com/wesbos/cobalt2-warp)
+- [Sublime Text](https://github.com/wesbos/cobalt2)
+- [Atom](https://github.com/wesbos/Cobalt2-atom)
+- [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
+- [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
+- [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
+- [Slack](https://github.com/wesbos/Cobalt2-Slack)
 
 ## Thanks
 
