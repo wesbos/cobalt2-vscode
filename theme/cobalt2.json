@@ -43,6 +43,7 @@
     // "contrastActiveBorder": null,
     "contrastBorder": "#ffffff00",
     // debug
+    "debugConsole.errorForeground": "#ff5630",
     "debugExceptionWidget.background": "#193549",
     "debugExceptionWidget.border": "#aaa",
     "debugToolBar.background": "#193549",
