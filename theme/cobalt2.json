@@ -28,7 +28,6 @@
     // activityBar
     "activityBar.background": "#122738",
     "activityBar.border": "#0d3a58",
-    "activityBar.dropBackground": "#0d3a58",
     "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#ffc600",
     "activityBarBadge.foreground": "#000",
@@ -105,7 +104,7 @@
     "editorGutter.deletedBackground": "#A22929",
     "editorGutter.modifiedBackground": "#26506D",
     // editorGroup
-    "editorGroup.background": "#A22929",
+    "editorGroup.emptyBackground": "#122738",
     "editorGroup.border": "#122738",
     "editorGroup.dropBackground": "#12273899",
     // editorGroupHeader
@@ -393,21 +392,21 @@
       "name": "Meta Brace",
       "scope": "meta.brace",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#a0a9b9"
       }
     },
     {
       "name": "Punctuation",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#a0a9b9"
       }
     },
-    {
+    { 
       "name": "Punctuation Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#a0a9b9"
       }
     },
     {
@@ -415,6 +414,16 @@
       "scope": "punctuation.definition.template-expression",
       "settings": {
         "foreground": "#ffee80"
+      }
+    },
+    {
+      "name": "Punctuation section embedded (i.e. JS blocks in JSX)",
+      "scope": [
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#ff628c"
       }
     },
     {
@@ -800,7 +809,7 @@
       "name": "[TYPESCRIPT] - Punctuation Parameters",
       "scope": "source.ts punctuation.definition.parameters",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#a0a9b9"
       }
     },
     {
