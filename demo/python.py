@@ -15,7 +15,7 @@ def welcome(self, a):
     content = request.get_json(silent=True, force=True)
 
     try:
-        message = 'Welcome %s!' % content['name']
+        message = f"Welcome {content['name']}!"
         response = {'message': message}
         return make_response(jsonify(response), 200)
 
