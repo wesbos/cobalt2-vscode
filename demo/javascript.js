@@ -29,3 +29,29 @@ console.log(wes.doesNotExist);
 
 const usedAge = 200;
 console.log(usedAge);
+
+// This is a single line comment
+
+/**
+ * This is a multi-line comment with JSDoc
+ * @param {string} name
+ * @returns {string}
+ */
+
+/**
+ * @typedef {Object} Person
+ * @property {string} name
+ * @property {number} age
+ * @property {string} [job]
+ */
+
+/**
+ * @type {Person}
+ */
+const person = {
+  name: `Wes`,
+  age: 100,
+}
+
+console.log(person.age);
+console.log(person.doesNotExist);
