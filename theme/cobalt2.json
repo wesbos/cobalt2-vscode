@@ -223,6 +223,8 @@
     "scrollbarSlider.hoverBackground": "#437da3cc",
     // selection
     "selection.background": "#027dff",
+    // settings
+    "settings.checkboxBorder": "#aaa",
     // sidebar
     "sideBar.background": "#15232d",
     "sideBar.border": "#0d3a58",
