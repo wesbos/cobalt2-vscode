@@ -103,7 +103,7 @@
     "editorGutter.background": "#12273866",
     "editorGutter.addedBackground": "#3C9F4A",
     "editorGutter.deletedBackground": "#A22929",
-    "editorGutter.modifiedBackground": "#26506D",
+    "editorGutter.modifiedBackground": "#ffc600",
     // editorGroup
     "editorGroup.background": "#A22929",
     "editorGroup.border": "#122738",
