@@ -8,6 +8,22 @@
       "foreground": "#ffc600"
     },
     "variable": "#fff",
+    // In JS/TS, variable declared with `const` is recognized as readonly
+    // Therefore, it's necessary to specify the language
+    "variable.readonly:python": {
+      "foreground": "#FF628C"
+    },
+    "*.decorator:python": {
+      "fontStyle": "italic bold"
+    },
+    "selfParameter:python": {
+        "foreground": "#fb94ff",
+        "fontStyle": "italic"
+    },
+    "clsParameter:python": {
+        "foreground": "#fb94ff",
+        "fontStyle": "italic"
+    },
     "interface": {
       // "foreground": "#ff0088",
       "foreground": "#FF68B8",
@@ -621,16 +637,24 @@
     },
     {
       "name": "[PYTHON] - Self Argument",
-      "scope": ["variable.parameter.function.language.special.self.python","meta.function-call.generic.python"],
+      "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
-        "foreground": "#9effff"
+        "fontStyle": "italic",
+        "foreground": "#fb94ff"
       }
     },
     {
-      "name": "[PYTHON] - Function Call Argument",
-      "scope": ["meta.function-call.arguments.python"],
+      "name": "[PYTHON] - Method Declaration",
+      "scope": "entity.name.function.decorator.python",
       "settings": {
-        "foreground": "#fb94ff"
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "[PYTHON] - Declaration Leading Punctuation @",
+      "scope": "punctuation.definition.decorator.python",
+      "settings": {
+        "foreground": "#FF68B8",
       }
     },
     {
