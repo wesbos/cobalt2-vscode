@@ -62,7 +62,7 @@ These are mostly notes for me.
 
 1. Increment the version number in `package.json` with `npm version major|minor|patch`
 1. run `npm run bundle`
-1. run `npm publish` to publish both to npm and vscode extension store
+1. run `npm publish` to publish both to npm and vs code extension store
 
 ## I don't like something
 
