@@ -23,6 +23,7 @@
   },
   "colors": {
     // menu
+
     "menu.selectionForeground": "#fff",
     "menubar.selectionBackground": "#0d3a58",
     // activityBar
@@ -621,7 +622,10 @@
     },
     {
       "name": "[PYTHON] - Self Argument",
-      "scope": ["variable.parameter.function.language.special.self.python","meta.function-call.generic.python"],
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "meta.function-call.generic.python"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
@@ -861,7 +865,11 @@
         "entity.other.attribute-name.js",
         "entity.other.attribute-name.ts",
         "entity.other.attribute-name.tsx",
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "entity.name.type.class",
+        "keyword",
+        "constant",
+        "storage.type.class.js"
       ],
       "settings": {
         "fontStyle": "italic"
