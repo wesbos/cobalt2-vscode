@@ -854,27 +854,41 @@
     {
       "name": "Italicsify for Operator Mono",
       "scope": [
-        "modifier",
-        "this",
-        "comment",
-        "storage.modifier",
-        "entity.other.attribute-name.js",
-        // "storage.modifier.js",
-        // "storage.modifier.ts",
-        // "storage.modifier.tsx",
-        "entity.other.attribute-name.js",
-        "entity.other.attribute-name.ts",
-        "entity.other.attribute-name.tsx",
-        "entity.other.attribute-name.html",
-        "entity.name.type.class",
-        "keyword",
-        "constant",
-        "storage.type.class.js"
+        "modifier", // General modifiers like public, private in many languages
+        "this", // 'this' keyword in object context
+        "comment", // All comment types
+        "storage.modifier", // Specific modifiers such as static in languages like Java, C#
+        "entity.other.attribute-name.js", // Attribute names in JavaScript objects
+        // "storage.modifier.js", // Uncomment to specifically target static in JavaScript
+        // "storage.modifier.ts", // Uncomment to specifically target static in TypeScript
+        // "storage.modifier.tsx", // Uncomment to specifically target static in TypeScript React
+        "entity.other.attribute-name.ts", // Attribute names in TypeScript objects
+        "entity.other.attribute-name.tsx", // Attribute names in TypeScript React objects
+        "entity.other.attribute-name.html", // Attribute names in HTML tags
+        "entity.name.type.class", // Class names in many languages
+        "keyword", // Keywords in languages (if, for, return, etc.)
+        "constant", // Constants like numbers, string literals, boolean values
+        "storage.type.class.js", // Specific class keyword in JavaScript
+        "storage.type.class.ts" // Specific class keyword in TypeScript
       ],
       "settings": {
         "fontStyle": "italic"
       }
     },
+    {
+      "scope": [
+        "invalid", // Targets invalid tokens or syntax errors
+        "keyword.operator", // Targets operators (+, -, *, /, etc.) in various languages
+        "constant.numeric.css", // Targets numeric values in CSS
+        "keyword.other.unit.px.css", // Targets the 'px' unit specifically in CSS
+        "constant.numeric.decimal.js", // Targets decimal numbers in JavaScript
+        "constant.numeric.json" // Targets numeric values in JSON
+      ],
+      "settings": {
+        "fontStyle": "" // Setting fontStyle to an empty string to ensure no specific style is applied
+      }
+    },
+
     {
       "name": "Export Default",
       "scope": ["keyword.control.export"],
