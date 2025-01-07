@@ -92,6 +92,13 @@
     "editor.wordHighlightBackground": "#ffffff21",
     "editorBracketMatch.background": "#0d3a58",
     "editorBracketMatch.border": "#ffc60080",
+    // Editor Bracket Highlight colours
+    "editorBracketHighlight.foreground1": "#FFA500",
+    "editorBracketHighlight.foreground2": "#FF69B4",
+    "editorBracketHighlight.foreground3": "#00FF7F",
+    "editorBracketHighlight.foreground4": "#00FFFF",
+    "editorBracketHighlight.foreground5": "#FFD700",
+    "editorBracketHighlight.foreground6": "#FF00FF",
     "editorCodeLens.foreground": "#aaa",
     "editorCursor.foreground": "#ffc600",
     // Errors
@@ -621,7 +628,10 @@
     },
     {
       "name": "[PYTHON] - Self Argument",
-      "scope": ["variable.parameter.function.language.special.self.python","meta.function-call.generic.python"],
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "meta.function-call.generic.python"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
