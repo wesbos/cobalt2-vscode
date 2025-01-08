@@ -223,6 +223,8 @@
     "pickerGroup.foreground": "#aaa",
     // progressBar
     "progressBar.background": "#ffc600",
+    // sash
+    "sash.hoverBorder": "#ffc600",
     // scrollbar
     "scrollbar.shadow": "#00000000",
     "scrollbarSlider.activeBackground": "#355166cc",
