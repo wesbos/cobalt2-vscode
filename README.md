@@ -30,19 +30,28 @@
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "all",
+  "editor.background": "#061622",
 }
 ```
 
 ## Colours
 
 Blue: #193549
+
 Blue Highlight: #1F4662
+
 Blue Highlight2: #234E6D
+
 Blue Dark: #122738
+
 Yellow: #ffc600
+
 Hot Pink: #ff0088
+
 Blush Pink: #ff628c
+
 Orange: #ff9d00
+
 Green
 
 ## Contributing
