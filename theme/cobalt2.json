@@ -644,6 +644,25 @@
       }
     },
     {
+      "name": "[PYTHON] - Decorator Puncuation",
+      "scope": [
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#FF628C",
+        "fontStyle": "italic bold underline"
+      }
+    },
+    {
+      "name": "[PYTHON] - Decorator Function",
+      "scope": [
+        "entity.name.function.decorator.python"
+      ],
+      "settings": {
+        "fontStyle": "italic underline"
+      }
+    },
+    {
       "name": "[JSON] - Support",
       "scope": "source.json support",
       "settings": {
