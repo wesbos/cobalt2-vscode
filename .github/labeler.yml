@@ -1,0 +1,28 @@
+version: v1
+
+labels:
+  - label: "Enhancement"
+    sync: true
+    matcher:
+      commits: "^feat.*?:"
+      title: "^feat.*?:"
+
+  - label: "Bug"
+    sync: true
+    matcher:
+      commits: "^fix.*?:"
+      title: "^fix.*?:"
+
+  - label: "Documentation"
+    sync: true
+    matcher:
+      commits: "^docs.*?:"
+      title: "^docs.*?:"
+      files: ["demo/**", "**/*.md"]
+
+  - label: "Chore"
+    sync: true
+    matcher:
+      commits: "^chore.*?:"
+      title: "^chore.*?:"
+      files: [".github/**", ".vscode/**", "./.*", "./*.js"]

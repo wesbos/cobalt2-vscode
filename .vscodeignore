@@ -1,0 +1,9 @@
+.vscode
+demo/
+images/logo.sketch
+.gitignore
+.gitattributes
+.editorconfig
+node_modules
+*.vsix
+.editorconfig

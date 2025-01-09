@@ -1,15 +1,17 @@
-const express = require("express");
-const app = express();
+const hello = 'I am never used';
 
-app.use("/static", express.static(path.join(__dirname, "public")));
+doesNotExist.nope(`I'm never imported`);
 
-app.get("/", function(req, res) {
-  res.send("Hello World!");
-});
-app.use(function(err, req, res, next) {
-  res.status(500).send("Something broke!");
-});
+class widget extends React.Component { }
 
-app.listen(3000, () => {
-  console.log("Example app listening on port 3000!");
-});
+const joe = function () { };
+
+const wes = 100;
+
+function wes() {
+
+}
+
+const wes = () => { };
+
+console.log(joe, wes);
